@@ -1,0 +1,92 @@
+[
+    {
+        "audioIn": "rtsp://admin:Q12wazxsw@10.22.15.20:554/Streaming/Channels/101",
+        "audioOut": "",
+        "buttons": [
+        ],
+        "cameras": [
+            {
+                "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
+                "name": "Front",
+                "rtspPrimary": "rtsp://admin:Q12wazxsw@10.22.15.20:554/Streaming/Channels/101",
+                "rtspSecondary": "rtsp://admin:Q12wazxsw@10.22.15.20:554/Streaming/Channels/102",
+                "type": 1
+            },
+            {
+                "id": "688dca50-1e85-46c1-8441-51d2d8be71cf",
+                "name": "Back",
+                "rtspPrimary": "rtsp://admin:Q12wazxsw@10.22.16.20:554/cam/realmonitor?channel=1&subtype=0",
+                "rtspSecondary": "rtsp://admin:Q12wazxsw@10.22.16.20:554/cam/realmonitor?channel=1&subtype=1",
+                "type": 0
+            }
+        ],
+        "dimensions": {
+            "leftXBot": 0.30000001192092896,
+            "leftXTop": 0.4000000059604645,
+            "leftYBot": 1,
+            "leftYTop": 0.5,
+            "rightXBot": 0.699999988079071,
+            "rightXTop": 0.6000000238418579,
+            "rightYBot": 1,
+            "rightYTop": 0.5
+        },
+        "gcsId": "",
+        "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
+        "motorTempHost": "",
+        "name": "Воля 20 модель",
+        "winchEnabled": false,
+        "link": {
+            "name": "Воля 20",
+            "type": 1,
+            "host": "10.23.20.14",
+            "port": 14550,
+            "auto": false,
+            "highLatency": false
+        }
+    },
+    {
+        "audioIn": "rtsp://admin:Q12wazxsw@10.23.79.15:554/Streaming/Channels/101",
+        "audioOut": "10.23.79.13",
+        "buttons": [
+        ],
+        "cameras": [
+            {
+                "id": "a61e86ad-80af-4e03-b609-0dfc0ce4d7e6",
+                "name": "Front",
+                "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.79.15:554/Streaming/Channels/101",
+                "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.79.15:554/Streaming/Channels/102",
+                "type": 1
+            },
+            {
+                "id": "276eb417-8c55-4278-9b46-16f35bfcbb25",
+                "name": "Back",
+                "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.79.16:554/cam/realmonitor?channel=1&subtype=0",
+                "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.79.16:554/cam/realmonitor?channel=1&subtype=1",
+                "type": 2
+            }
+        ],
+        "dimensions": {
+            "leftXBot": 0.30000001192092896,
+            "leftXTop": 0.4000000059604645,
+            "leftYBot": 1,
+            "leftYTop": 0.5,
+            "rightXBot": 0.699999988079071,
+            "rightXTop": 0.6000000238418579,
+            "rightYBot": 1,
+            "rightYTop": 0.5
+        },
+        "gcsId": "",
+        "id": "c062f3b8-5752-4a17-b6ec-945f515bb2a6",
+        "motorTempHost": "",
+        "name": "Рись 79",
+        "winchEnabled": false,
+        "link": {
+            "name": "Рись 79",
+            "type": 1,
+            "host": "10.23.79.14",
+            "port": 14552,
+            "auto": false,
+            "highLatency": false
+        }
+    }
+]
