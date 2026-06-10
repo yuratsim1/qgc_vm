@@ -703,21 +703,89 @@
           "type": 2
         }
       ],
-      "dimensions": {
-        "leftXBot": 0.30000001192092896,
-        "leftXTop": 0.4000000059604645,
+    "dimensions": {
+        "leftXBot": 0.36875001192092904,
+        "leftXTop": 0.44218750596046447,
         "leftYBot": 1,
-        "leftYTop": 0.5,
-        "rightXBot": 0.699999988079071,
-        "rightXTop": 0.6000000238418579,
+        "leftYTop": 0.5703653585926928,
+        "rightXBot": 0.664062488079071,
+        "rightXTop": 0.5932291905085246,
         "rightYBot": 1,
-        "rightYTop": 0.5
-      },
+        "rightYTop": 0.5660351826792963
+    },
       "gcsId": "",
       "id": "0cb4aeb2-bb33-4e34-830f-efd662fa01c1",
       "motorTempHost": "",
       "name": "Tanchik43",
       "winchEnabled": false
     }
-  }
+  },
+    {
+        "id": "148ea86f-de67-46e5-bd32-35022224e3c5",
+        "name": "Поні 98",
+        "type": 1,
+        "host": "10.23.98.14",
+        "port": 14550,
+        "auto": false,
+        "highLatency": false,
+        "vehicleModel": {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.98.14",
+            "cameras": [
+                {
+                    "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "688dca50-1e85-46c1-8441-51d2d8be71cf",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video2",
+                    "type": 3
+                }
+            ],
+    "dimensions": {
+        "leftXBot": 0.35208335518836975,
+        "leftXTop": 0.4046874940395355,
+        "leftYBot": 1,
+        "leftYTop": 0.6677942872047424,
+        "rightXBot": 0.6505208015441895,
+        "rightXTop": 0.5838541388511658,
+        "rightYBot": 1,
+        "rightYTop": 0.6569688320159912
+    },
+            "gcsId": "",
+            "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
+            "motorTempHost": "",
+            "name": "Поні 98 модель",
+            "winchEnabled": false,
+            "buttons": [
+        {
+          "functions": [
+            {
+              "servo": 3,
+              "type": 0,
+              "value": 1900
+            }
+          ],
+          "id": "ce7cafcd-3ed8-436c-83ef-42275f8e8d6e",
+          "name": "Фара передня ON"
+        },
+        {
+          "functions": [
+            {
+              "servo": 3,
+              "type": 0,
+              "value": 1100
+            }
+          ],
+          "id": "5a04b259-7202-4427-bc20-49431013d03d",
+          "name": "Фара передня OFF"
+        }
+    ]
+        }
+    }
 ]
