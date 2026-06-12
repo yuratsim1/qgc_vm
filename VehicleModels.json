@@ -432,16 +432,16 @@
           "type": 2
         }
       ],
-      "dimensions": {
-        "leftXBot": 0.30000001192092896,
-        "leftXTop": 0.4000000059604645,
+    "dimensions": {
+        "leftXBot": 0.3291666785875956,
+        "leftXTop": 0.4067708392937977,
         "leftYBot": 1,
-        "leftYTop": 0.5,
-        "rightXBot": 0.699999988079071,
-        "rightXTop": 0.6000000238418579,
+        "leftYTop": 0.5866035182679296,
+        "rightXBot": 0.6468749880790711,
+        "rightXTop": 0.5729166905085245,
         "rightYBot": 1,
-        "rightYTop": 0.5
-      },
+        "rightYTop": 0.5801082543978349
+    },
       "gcsId": "",
       "id": "ff439ed3-3bfc-4e16-ba6f-f93b4a416e99",
       "motorTempHost": "",
@@ -477,15 +477,16 @@
           "type": 2
         }
       ],
-      "dimensions": {
-        "leftXBot": 0.30000001192092896,
-        "leftXTop": 0.4000000059604645,
+    "dimensions": {
+        "leftXBot": 0.3583333452542623,
+        "leftXTop": 0.4052083392937978,
         "leftYBot": 1,
-        "leftYTop": 0.5,
-        "rightXBot": 0.699999988079071,
-        "rightXTop": 0.6000000238418579,
+        "leftYTop": 0.7327469553450608,
+        "rightXBot": 0.6156249880790711,
+        "rightXTop": 0.5635416905085245,
         "rightYBot": 1,
-        "rightYTop": 0.5
+        "rightYTop": 0.7392422192151555
+    
       },
       "gcsId": "",
       "id": "4250a2d4-6634-48e7-9456-c19a2c4815a7",
