@@ -201,7 +201,7 @@
       "winchEnabled": false
     }
   },
-   {
+  {
     "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6777a",
     "name": "Рись13",
     "type": 1,
@@ -550,7 +550,7 @@
     "highLatency": false,
     "vehicleModel": {
       "audioIn": "rtsp://admin:ASDrty777@10.23.41.15:554/Streaming/Channels/102",
-      "audioOut": "10.23.41.13",
+      "audioOut": "10.23.41.14",
       "buttons": [],
       "cameras": [
         {
@@ -568,16 +568,16 @@
           "type": 2
         }
       ],
-      "dimensions": {
-        "leftXBot": 0.30000001192092896,
-        "leftXTop": 0.4000000059604645,
+    "dimensions": {
+        "leftXBot": 0.3703125119209288,
+        "leftXTop": 0.4343750059604645,
         "leftYBot": 1,
-        "leftYTop": 0.5,
-        "rightXBot": 0.699999988079071,
-        "rightXTop": 0.6000000238418579,
+        "leftYTop": 0.6288227334235452,
+        "rightXBot": 0.6927083214124045,
+        "rightXTop": 0.6234375238418579,
         "rightYBot": 1,
-        "rightYTop": 0.5
-      },
+        "rightYTop": 0.6179972936400541
+    },
       "gcsId": "",
       "id": "33f61f9a-11ef-4785-a02a-6d862ed6a6e5",
       "motorTempHost": "",
