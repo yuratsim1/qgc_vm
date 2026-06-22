@@ -8,7 +8,7 @@
     "auto": false,
     "highLatency": false,
     "vehicleModel": {
-      "audioIn": "rtsp://admin:Q12wazxsw@10.23.44.15:554/media/video2",
+      "audioIn": "rtsp://admin:Q12wazxsw@10.23.44.15:554/Streaming/Channels/102",
       "audioOut": "10.23.44.14",
       "buttons": [
         {
@@ -94,16 +94,16 @@
           "type": 1
         }
       ],
-      "dimensions": {
-        "leftXBot": 0.3802083432674408,
-        "leftXTop": 0.42604169249534607,
+    "dimensions": {
+        "leftXBot": 0.32812500993410754,
+        "leftXTop": 0.3833333591620128,
         "leftYBot": 1,
-        "leftYTop": 0.6786085367202759,
-        "rightXBot": 0.6583333015441895,
-        "rightXTop": 0.5880208611488342,
+        "leftYTop": 0.6591227451099917,
+        "rightXBot": 0.6104166348775228,
+        "rightXTop": 0.5380208611488343,
         "rightYBot": 1,
-        "rightYTop": 0.677570104598999
-      },
+        "rightYTop": 0.6624144889021113
+    },
       "gcsId": "",
       "id": "4f2511ea-064f-4848-9f3c-091c586b9da4",
       "motorTempHost": "",
@@ -503,7 +503,7 @@
     "auto": false,
     "highLatency": false,
     "vehicleModel": {
-      "audioIn": "rtsp://admin:ASDrty777@10.23.40.16:554/cam/realmonitor?channel=1&subtype=1",
+      "audioIn": "rtsp://admin:ASDrty777@10.23.40.15:554/Streaming/Channels/102",
       "audioOut": "10.23.40.14",
       "buttons": [],
       "cameras": [
@@ -523,16 +523,15 @@
         }
       ],
     "dimensions": {
-        "leftXBot": 0.3583333452542623,
-        "leftXTop": 0.4052083392937978,
+        "leftXBot": 0.35572918256123853,
+        "leftXTop": 0.40416668256123867,
         "leftYBot": 1,
-        "leftYTop": 0.7327469553450608,
-        "rightXBot": 0.6156249880790711,
-        "rightXTop": 0.5635416905085245,
+        "leftYTop": 0.7359945906676522,
+        "rightXBot": 0.5994791309038797,
+        "rightXTop": 0.5520833770434063,
         "rightYBot": 1,
-        "rightYTop": 0.7392422192151555
-    
-      },
+        "rightYTop": 0.7381596521047199
+    },
       "gcsId": "",
       "id": "4250a2d4-6634-48e7-9456-c19a2c4815a7",
       "motorTempHost": "",
@@ -834,8 +833,8 @@
     ]
         }
     },
-  {
-        "id": "148ea86f-de67-46e5-aa32-35022224j3c5",
+   {
+        "id": "148ea86f-de67-46e5-aa32-35022224e3c5",
         "name": "Вархан 66",
         "type": 1,
         "host": "10.23.66.14",
@@ -862,14 +861,14 @@
                 }
             ],
     "dimensions": {
-        "leftXBot": 0.31093752185503637,
-        "leftXTop": 0.3807291607062022,
+        "leftXBot": 0.3348958571751912,
+        "leftXTop": 0.3979166686534881,
         "leftYBot": 1,
-        "leftYTop": 0.6483084955944582,
-        "rightXBot": 0.6505208015441895,
-        "rightXTop": 0.5963541388511658,
+        "leftYTop": 0.6970229945744165,
+        "rightXBot": 0.6333333015441894,
+        "rightXTop": 0.5744791269302367,
         "rightYBot": 1,
-        "rightYTop": 0.6537212000809439
+        "rightYTop": 0.6970229724747241
     },
             "gcsId": "",
             "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
