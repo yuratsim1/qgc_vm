@@ -84,7 +84,7 @@
           "name": "Front",
           "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.44.15:554/Streaming/Channels/101",
           "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.44.15:554/Streaming/Channels/102",
-          "type": 2
+          "type": 1
         },
         {
           "id": "",
@@ -593,7 +593,7 @@
     "auto": false,
     "highLatency": false,
     "vehicleModel": {
-      "audioIn": "rtsp://admin:ASDrty777@10.23.47.15:554/Streaming/Channels/102",
+      "audioIn": "",
       "audioOut": "",
       "buttons": [
         {
@@ -635,16 +635,16 @@
           "type": 1
         }
       ],
-      "dimensions": {
-        "leftXBot": 0.30000001192092896,
-        "leftXTop": 0.4000000059604645,
+    "dimensions": {
+        "leftXBot": 0.3791666785875956,
+        "leftXTop": 0.44166667262713116,
         "leftYBot": 1,
-        "leftYTop": 0.5,
-        "rightXBot": 0.699999988079071,
-        "rightXTop": 0.6000000238418579,
+        "leftYTop": 0.706765899864682,
+        "rightXBot": 0.6343749880790711,
+        "rightXTop": 0.5583333571751913,
         "rightYBot": 1,
-        "rightYTop": 0.5
-      },
+        "rightYTop": 0.7100135317997295
+    },
       "gcsId": "",
       "id": "7930228a-8ac5-40c8-abc8-2e2a29858b89",
       "motorTempHost": "",
