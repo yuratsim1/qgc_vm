@@ -900,5 +900,50 @@
         }
     ]
         }
+    },
+    {
+    "id": "33f61f9a-11ef-4785-a02a-6d862ed888e5",
+    "name": "Танчик1_213",
+    "type": 1,
+    "host": "10.23.213.14",
+    "port": 14550,
+    "auto": false,
+    "highLatency": false,
+    "vehicleModel": {
+      "audioIn": "rtsp://admin:Q12wazxsw@10.23.213.15:554/Streaming/Channels/102",
+      "audioOut": "10.23.213.13",
+      "buttons": [],
+      "cameras": [
+        {
+          "id": "0060294e-735d-48c6-ab85-128b1f384ce1",
+          "name": "Front",
+          "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.213.15:554/Streaming/Channels/101",
+          "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.213.15:554/Streaming/Channels/102",
+          "type": 1
+        },
+        {
+          "id": "c6e94970-2786-4d7c-ac94-5736f373c18d",
+          "name": "Back",
+          "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.213.16:554/Streaming/Channels/101",
+          "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.213.16:554/Streaming/Channels/102",
+          "type": 1
+        }
+      ],
+    "dimensions": {
+        "leftXBot": 0.3380208452542623,
+        "leftXTop": 0.4192708512147268,
+        "leftYBot": 1,
+        "leftYTop": 0.6342354637844153,
+        "rightXBot": 0.6291666467984518,
+        "rightXTop": 0.5614583571751912,
+        "rightYBot": 1,
+        "rightYTop": 0.630987816444108
+    },
+      "gcsId": "",
+      "id": "33f61f9a-11ef-4785-a02a-6d862ttta6e5",
+      "motorTempHost": "",
+      "name": "Танчик1_213_m",
+      "winchEnabled": false
     }
+  }
 ]
