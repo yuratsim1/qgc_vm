@@ -453,7 +453,7 @@
     "id": "ff439ed3-3bfc-4e16-ba6f-f93b4a416e99",
     "name": "Змій59",
     "type": 1,
-    "host": "10.0.0.41",
+    "host": "10.23.59.14",
     "port": 14540,
     "auto": false,
     "highLatency": false,
