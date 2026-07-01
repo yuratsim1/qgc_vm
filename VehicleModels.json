@@ -450,6 +450,51 @@
     }
   },
   {
+    "id": "ff439ed3-3bfc-4116-ba6f-f93b4a416e99",
+    "name": "Змій55",
+    "type": 1,
+    "host": "10.23.55.14",
+    "port": 14540,
+    "auto": false,
+    "highLatency": false,
+    "vehicleModel": {
+      "audioIn": "rtsp://admin:Q12wazxsw@10.23.55.15:554/Streaming/Channels/101",
+      "audioOut": "10.23.55.13",
+      "buttons": [],
+      "cameras": [
+        {
+          "id": "555122d0-b54f-420d-bd09-e1e676f7783d",
+          "name": "Front",
+          "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.55.15:554/Streaming/Channels/101",
+          "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.55.15:554/Streaming/Channels/102",
+          "type": 1
+        },
+        {
+          "id": "34257555-80a1-4e02-93da-4226d36df860",
+          "name": "Back",
+          "rtspPrimary": "rtsp://admin:ASDrty777@10.23.55.16:554/cam/realmonitor?channel=1&subtype=0",
+          "rtspSecondary": "rtsp://admin:ASDrty777@10.23.55.16:554/cam/realmonitor?channel=1&subtype=1",
+          "type": 2
+        }
+      ],
+    "dimensions": {
+        "leftXBot": 0.3291666785875956,
+        "leftXTop": 0.4067708392937977,
+        "leftYBot": 1,
+        "leftYTop": 0.5866035182679296,
+        "rightXBot": 0.6468749880790711,
+        "rightXTop": 0.5729166905085245,
+        "rightYBot": 1,
+        "rightYTop": 0.5801082543978349
+    },
+      "gcsId": "",
+      "id": "ff439ed3-3bfc-4e16-da6f-f93b44446e99",
+      "motorTempHost": "",
+      "name": "Zmiy55",
+      "winchEnabled": false
+    }
+  },
+  {
     "id": "ff439ed3-3bfc-4e16-ba6f-f93b4a416e99",
     "name": "Змій59",
     "type": 1,
@@ -834,7 +879,7 @@
         }
     },
    {
-        "id": "148ea86f-de67-46e5-aa32-35022224e3c5",
+        "id": "148ea86f-de97-46e5-aa32-35022224e3c5",
         "name": "Вархан 66",
         "type": 1,
         "host": "10.23.66.14",
@@ -846,14 +891,14 @@
             "audioOut": "10.23.66.13",
             "cameras": [
                 {
-                    "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
+                    "id": "148ea86f-de67-46e5-bd32-3g08e894e3c7",
                     "name": "Front",
                     "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.66.15:554/Streaming/Channels/101",
                     "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.66.15:554/Streaming/Channels/102",
                     "type": 1
                 },
                 {
-                    "id": "688dca50-1e85-46c1-8441-51d2d8be71cf",
+                    "id": "688dca50-1e85-46c1-8441-51d2d8br71cf",
                     "name": "Back",
                     "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.66.16:554/cam/realmonitor?channel=1&subtype=0",
                     "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.66.16:554/cam/realmonitor?channel=1&subtype=1",
@@ -871,7 +916,7 @@
         "rightYTop": 0.6970229724747241
     },
             "gcsId": "",
-            "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
+            "id": "fe2fbf75-e94f-42f3-8c80-5e587rrdb12b",
             "motorTempHost": "",
             "name": "Вархан 66 модель",
             "winchEnabled": false,
