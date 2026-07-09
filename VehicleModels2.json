@@ -121,6 +121,19 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
+            "host": "10.23.116.14",
+            "id": "148ea86f-de67-46e5-bd32-77722224e3c5",
+            "name": "Поні 116",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "fe2fbf75-e24f-42f3-8c80-5e58222db12b"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
             "host": "10.23.66.14",
             "id": "148ea86f-de97-46e5-aa32-35022224e3c5",
             "name": "Вархан 66",
@@ -621,6 +634,43 @@
             "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
             "motorTempHost": "",
             "name": "Поні 98 модель",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.116.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.116.13",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.116.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.116.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "688dca50-1e85-46c1-8441-51d2d8be71cf",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.116.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.116.16:554/media/video2",
+                    "type": 1
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3630208671092987,
+                "leftXTop": 0.41874998807907104,
+                "leftYBot": 1,
+                "leftYTop": 0.6818673610687256,
+                "rightXBot": 0.6479166150093079,
+                "rightXTop": 0.5838541388511658,
+                "rightYBot": 1,
+                "rightYTop": 0.6742895245552063
+            },
+            "gcsId": "",
+            "id": "fe2fbf75-e24f-42f3-8c80-5e58222db12b",
+            "motorTempHost": "",
+            "name": "Поні 116 модель",
             "winchEnabled": false
         },
         {
