@@ -56,6 +56,19 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
+            "host": "10.23.64.14",
+            "id": "a6c76b57-3c6c-4c7c-8b1d-6be4d546c263",
+            "name": "Рись64",
+            "port": 14552,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "3a5f768f-5281-4fe6-91f9-08b1a646233a"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
             "host": "10.23.55.14",
             "id": "ff439ed3-3bfc-4116-ba6f-f93b4a416e99",
             "name": "Змій55",
@@ -155,6 +168,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d862ttta6e5"
+        },
+         {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.18.14",
+            "id": "33f61f9a-11ef-4785-a02a-6d862ed11115",
+            "name": "Терміт18",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "d6cb0b99-b809-425b-ac48-7a893e341cbc"
         },
         {
             "autoConnect": false,
@@ -309,6 +335,43 @@
             "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
             "motorTempHost": "",
             "name": "Lynx13",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.64.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.64.13",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "dbd42aba-6edd-43c4-9191-154aeae9e4a8",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.64.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.64.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "719a9af0-4f05-401b-a05d-accff85442d4",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.64.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.64.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "",
+            "id": "3a5f768f-5281-4fe6-91f9-08b1a646233a",
+            "motorTempHost": "",
+            "name": "Lynx64",
             "winchEnabled": false
         },
         {
@@ -782,6 +845,43 @@
             "id": "33f61f9a-11ef-4785-a02a-6d8633tta6e5",
             "motorTempHost": "",
             "name": "Ratel340_v",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.18.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.18.13",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "07914eb0-5f65-4027-b46c-3b8ecdd38657",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.18.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.18.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "b72a644e-37cf-4994-bd82-142718cc227e",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.18.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.18.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "",
+            "id": "d6cb0b99-b809-425b-ac48-7a893e341cbc",
+            "motorTempHost": "",
+            "name": "Терміт18",
             "winchEnabled": false
         }
     ]
