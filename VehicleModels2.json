@@ -169,7 +169,7 @@
             "type": 1,
             "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d862ttta6e5"
         },
-         {
+        {
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
@@ -360,13 +360,13 @@
             ],
             "dimensions": {
                 "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXTop": 0.39635416865348816,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.5963464379310608,
+                "rightXBot": 0.6838541626930237,
+                "rightXTop": 0.5802083611488342,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.5887686014175415
             },
             "gcsId": "",
             "id": "3a5f768f-5281-4fe6-91f9-08b1a646233a",
