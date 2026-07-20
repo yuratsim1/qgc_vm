@@ -194,6 +194,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d8633tta6e5"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.85.14",
+            "id": "cebeb9a4-ed5c-4964-b37b-2c04d0808998",
+            "name": "Коник85",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "536c7ddf-6967-4e45-bdd9-06f3bfffa357"
         }
     ],
     "vehicleModels": [
@@ -882,6 +895,43 @@
             "id": "d6cb0b99-b809-425b-ac48-7a893e341cbc",
             "motorTempHost": "",
             "name": "Терміт18",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.85.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.85.13",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "a36a49e8-7906-4ee8-9ba2-68ac1ca3b66c",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.85.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.85.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "a2fbc9f6-1d08-45a2-9696-4a40286c7466",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.85.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.85.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.2838541865348816,
+                "leftXTop": 0.42135417461395264,
+                "leftYBot": 1,
+                "leftYTop": 0.5411366820335388,
+                "rightXBot": 0.7484374642372131,
+                "rightXTop": 0.5885416865348816,
+                "rightYBot": 1,
+                "rightYTop": 0.5324763059616089
+            },
+            "gcsId": "",
+            "id": "536c7ddf-6967-4e45-bdd9-06f3bfffa357",
+            "motorTempHost": "",
+            "name": "Konyk85",
             "winchEnabled": false
         }
     ]
