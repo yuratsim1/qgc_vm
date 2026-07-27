@@ -173,9 +173,22 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
+            "host": "10.23.19.14",
+            "id": "2453c241-2d01-4606-8d9f-d16ceff65f1e",
+            "name": "Рись19",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "e3ae7afe-ed20-4443-9240-8a7b66bd362d"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
             "host": "10.23.36.14",
             "id": "b9f5ce06-d5a8-4061-bcf4-b7b1d954454f",
-            "name": "Змій36",
+            "name": "Змій36_логіст",
             "port": 14540,
             "portDisplayName": "",
             "portName": "",
@@ -186,14 +199,14 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.19.14",
-            "id": "2453c241-2d01-4606-8d9f-d16ceff65f1e",
-            "name": "Рись19",
-            "port": 14550,
+            "host": "10.23.36.14",
+            "id": "3e630686-1db2-4981-929d-99af10d10e9b",
+            "name": "Змій36_евак",
+            "port": 14540,
             "portDisplayName": "",
             "portName": "",
             "type": 1,
-            "vehicleModelId": "e3ae7afe-ed20-4443-9240-8a7b66bd362d"
+            "vehicleModelId": "9dd05146-1592-4b27-b3c2-c72111178b45"
         }
     ],
     "vehicleModels": [
@@ -943,19 +956,56 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXBot": 0.3708333373069763,
+                "leftXTop": 0.4489583373069763,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.6028416752815247,
+                "rightXBot": 0.6723958253860474,
+                "rightXTop": 0.5729166865348816,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.5974289774894714
             },
             "gcsId": "",
             "id": "9dd05146-1592-4b27-b3c2-c72100e78b45",
             "motorTempHost": "",
             "name": "Змій36логіст",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.36.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.36.13",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "b5bd4704-57d1-457e-ae9e-9566f0e99f33",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.36.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.36.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "fbc7e67a-61ef-4341-b600-2c2ae2ad7a1c",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.36.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.36.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 1
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3708333373069763,
+                "leftXTop": 0.4489583373069763,
+                "leftYBot": 1,
+                "leftYTop": 0.6028416752815247,
+                "rightXBot": 0.6723958253860474,
+                "rightXTop": 0.5729166865348816,
+                "rightYBot": 1,
+                "rightYTop": 0.5974289774894714
+            },
+            "gcsId": "",
+            "id": "9dd05146-1592-4b27-b3c2-c72111178b45",
+            "motorTempHost": "",
+            "name": "Змій36евак",
             "winchEnabled": false
         },
         {
