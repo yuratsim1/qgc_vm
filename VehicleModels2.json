@@ -656,30 +656,6 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
             "audioOut": "10.23.98.13",
-            "buttons": [
-                {
-                    "functions": [
-                        {
-                            "servo": 3,
-                            "type": 0,
-                            "value": 1900
-                        }
-                    ],
-                    "id": "ce7cafcd-3ed8-436c-83ef-42275f8e8d6e",
-                    "name": "Фара передня ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 3,
-                            "type": 0,
-                            "value": 1100
-                        }
-                    ],
-                    "id": "5a04b259-7202-4427-bc20-49431013d03d",
-                    "name": "Фара передня OFF"
-                }
-            ],
             "cameras": [
                 {
                     "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
