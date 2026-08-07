@@ -1077,14 +1077,14 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXBot": 0.33281251788139343,
+                "leftXTop": 0.41718751192092896,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.5703653693199158,
+                "rightXBot": 0.6807291507720947,
+                "rightXTop": 0.5630208849906921,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.5703653693199158
             },
             "gcsId": "",
             "id": "3edb3d40-6905-45f4-8549-f6a95385dd78",
