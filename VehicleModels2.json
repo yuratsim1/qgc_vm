@@ -207,6 +207,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "9dd05146-1592-4b27-b3c2-c72111178b45"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.218.14",
+            "id": "2043eaf5-235a-40d2-a1c4-03f03512cfe3",
+            "name": "Рись18",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "3edb3d40-6905-45f4-8549-f6a95385dd78"
         }
     ],
     "vehicleModels": [
@@ -311,6 +324,7 @@
             "id": "4f2511ea-064f-4848-9f3c-091c586b9da4",
             "motorTempHost": "",
             "name": "Лідія",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -335,19 +349,20 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXBot": 0.3213541805744171,
+                "leftXTop": 0.421875,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.5454668402671814,
+                "rightXBot": 0.6942708492279053,
+                "rightXTop": 0.5796875357627869,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.55196213722229
             },
             "gcsId": "",
             "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
             "motorTempHost": "",
             "name": "Lynx13",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -385,6 +400,7 @@
             "id": "3a5f768f-5281-4fe6-91f9-08b1a646233a",
             "motorTempHost": "",
             "name": "Lynx64",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -422,6 +438,7 @@
             "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
             "motorTempHost": "",
             "name": "Lynx40",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -459,6 +476,7 @@
             "id": "bd3a0401-9a9e-4eb2-952f-64807bf0d667",
             "motorTempHost": "",
             "name": "Lynx57",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -496,6 +514,7 @@
             "id": "ff439ed3-3bfc-4e16-da6f-f93b44446e99",
             "motorTempHost": "",
             "name": "Zmiy55",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -533,6 +552,7 @@
             "id": "ff439ed3-3bfc-4e16-ba6f-f93b4a416e99",
             "motorTempHost": "",
             "name": "Zmiy59",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -592,6 +612,7 @@
             "id": "7930228a-8ac5-40c8-abc8-2e2a29858b89",
             "motorTempHost": "",
             "name": "Targan47",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -651,11 +672,14 @@
             "id": "5fb5436a-2020-499f-a164-e7035731cc5e",
             "motorTempHost": "",
             "name": "Targan49",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
             "audioOut": "10.23.98.13",
+            "buttons": [
+            ],
             "cameras": [
                 {
                     "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
@@ -686,6 +710,7 @@
             "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
             "motorTempHost": "",
             "name": "Поні 98 модель",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -704,9 +729,9 @@
                 {
                     "id": "688dca50-1e85-46c1-8441-51d2d8be71cf",
                     "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.116.16:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.116.16:554/media/video2",
-                    "type": 1
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.116.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.116.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
                 }
             ],
             "dimensions": {
@@ -723,6 +748,7 @@
             "id": "fe2fbf75-e24f-42f3-8c80-5e58222db12b",
             "motorTempHost": "",
             "name": "Поні 116 модель",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -760,6 +786,7 @@
             "id": "fe2fbf75-e94f-42f3-8c80-5e587rrdb12b",
             "motorTempHost": "",
             "name": "Вархан 66 модель",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -797,6 +824,7 @@
             "id": "33f61f9a-11ef-4785-a02a-6d862ttta6e5",
             "motorTempHost": "",
             "name": "Танчик1_213_m",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -834,6 +862,7 @@
             "id": "33f61f9a-11ef-4785-a02a-6d8633tta6e5",
             "motorTempHost": "",
             "name": "Ratel340_v",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -871,6 +900,7 @@
             "id": "d6cb0b99-b809-425b-ac48-7a893e341cbc",
             "motorTempHost": "",
             "name": "Терміт18",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -908,6 +938,7 @@
             "id": "536c7ddf-6967-4e45-bdd9-06f3bfffa357",
             "motorTempHost": "",
             "name": "Konyk85",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -945,6 +976,7 @@
             "id": "9dd05146-1592-4b27-b3c2-c72100e78b45",
             "motorTempHost": "",
             "name": "Змій36логіст",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -965,7 +997,7 @@
                     "name": "Back",
                     "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.36.16:554/cam/realmonitor?channel=1&subtype=0",
                     "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.36.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
+                    "type": 1
                 }
             ],
             "dimensions": {
@@ -982,6 +1014,7 @@
             "id": "9dd05146-1592-4b27-b3c2-c72111178b45",
             "motorTempHost": "",
             "name": "Змій36евак",
+            "unvAudioOut": "",
             "winchEnabled": false
         },
         {
@@ -1019,6 +1052,45 @@
             "id": "e3ae7afe-ed20-4443-9240-8a7b66bd362d",
             "motorTempHost": "",
             "name": "Рись19",
+            "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.218.15:554/Streaming/Channels/101",
+            "audioOut": "10.23.218.14",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "191bf67c-3b6e-446c-bf5d-d2ed4fe862d0",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.218.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.218.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "528255cc-ae8b-4ded-bcd8-0bc012da13de",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.218.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.218.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "",
+            "id": "3edb3d40-6905-45f4-8549-f6a95385dd78",
+            "motorTempHost": "",
+            "name": "Рись18",
+            "unvAudioOut": "",
             "winchEnabled": false
         }
     ]
