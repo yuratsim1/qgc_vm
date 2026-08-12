@@ -220,79 +220,26 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "3edb3d40-6905-45f4-8549-f6a95385dd78"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.32.14",
+            "id": "1ddc09bd-72dc-43a4-bc1a-4358db7a22d3",
+            "name": "Краб32",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": ""
         }
     ],
     "vehicleModels": [
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.44.15:554/Streaming/Channels/102",
-            "audioOut": "10.23.44.14",
+            "audioOut": "",
             "buttons": [
-                {
-                    "functions": [
-                        {
-                            "servo": 7,
-                            "type": 1,
-                            "value": 1
-                        }
-                    ],
-                    "id": "ce7cafcd-3ed8-436c-83ef-42275f8e8d6e",
-                    "name": "Фара передня ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 7,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "5a04b259-7202-4427-bc20-49431013d03d",
-                    "name": "Фара передня OFF"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 6,
-                            "type": 1,
-                            "value": 1
-                        }
-                    ],
-                    "id": "faccdbb6-991d-4935-b332-b64115c981b3",
-                    "name": "Фара задня ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 6,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "89e82292-1645-4e59-8447-cfe30917458c",
-                    "name": "Фара задня OFF"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 1,
-                            "type": 1,
-                            "value": 1
-                        }
-                    ],
-                    "id": "699588f8-c7cc-40a8-9db7-62bb51759b22",
-                    "name": "Теплак ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 1,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "96d6a099-4237-4550-ad7f-29a23bf59624",
-                    "name": "Теплак OFF"
-                }
             ],
             "cameras": [
                 {
@@ -305,9 +252,9 @@
                 {
                     "id": "",
                     "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.44.16:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.44.16:554/Streaming/Channels/102",
-                    "type": 1
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.44.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.44.16:554/media/video2",
+                    "type": 3
                 }
             ],
             "dimensions": {
@@ -324,7 +271,7 @@
             "id": "4f2511ea-064f-4848-9f3c-091c586b9da4",
             "motorTempHost": "",
             "name": "Лідія",
-            "unvAudioOut": "",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.44.16:554/media/video1",
             "winchEnabled": false
         },
         {
@@ -1038,15 +985,15 @@
                     "type": 2
                 }
             ],
-            "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+             "dimensions": {
+                "leftXBot": 0.33281251788139343,
+                "leftXTop": 0.41718751192092896,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.5703653693199158,
+                "rightXBot": 0.6807291507720947,
+                "rightXTop": 0.5630208849906921,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.5703653693199158
             },
             "gcsId": "",
             "id": "e3ae7afe-ed20-4443-9240-8a7b66bd362d",
