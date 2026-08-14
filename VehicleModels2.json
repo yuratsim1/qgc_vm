@@ -30,32 +30,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.140.14",
-            "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
-            "name": "Рись14P",
-            "port": 14552,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.57.14",
-            "id": "bd3a0401-9a9e-4eb2-952f-64807bf0d667",
-            "name": "Рись57",
-            "port": 14552,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "bd3a0401-9a9e-4eb2-952f-64807bf0d667"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.64.14",
             "id": "a6c76b57-3c6c-4c7c-8b1d-6be4d546c263",
             "name": "Рись64",
@@ -77,19 +51,6 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "ff439ed3-3bfc-4e16-da6f-f93b44446e99"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.47.14",
-            "id": "7930228a-8ac5-40c8-abc8-2e2a29858b89",
-            "name": "Тарган47",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "7930228a-8ac5-40c8-abc8-2e2a29858b89"
         },
         {
             "autoConnect": false,
@@ -232,7 +193,20 @@
             "portDisplayName": "",
             "portName": "",
             "type": 1,
-            "vehicleModelId": ""
+            "vehicleModelId": "d06fb375-8265-4db5-ad65-d40626238802"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.71.14",
+            "id": "86ca54ab-af8d-4163-9a64-819299f7659e",
+            "name": "Рись71",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "738f415c-c3f0-46ab-a09a-2d10f40df4b5"
         }
     ],
     "vehicleModels": [
@@ -985,7 +959,7 @@
                     "type": 2
                 }
             ],
-             "dimensions": {
+            "dimensions": {
                 "leftXBot": 0.33281251788139343,
                 "leftXTop": 0.41718751192092896,
                 "leftYBot": 1,
@@ -1038,6 +1012,103 @@
             "motorTempHost": "",
             "name": "Рись18",
             "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.71.15:554/Streaming/Channels/101",
+            "audioOut": "",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "67e9c25f-1a11-4ff3-a86a-40ba9d982e9a",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.71.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.71.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "0d226ecc-903e-49f0-978a-b8cf1149708b",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.71.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.71.16:554/media/video2",
+                    "type": 3
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "",
+            "id": "738f415c-c3f0-46ab-a09a-2d10f40df4b5",
+            "motorTempHost": "",
+            "name": "Рись71",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.71.16:554/media/video1",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.32.15:554/Streaming/Channels/102",
+            "audioOut": "10.23.32.14",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 5,
+                            "type": 0,
+                            "value": 2000
+                        }
+                    ],
+                    "id": "59b39bbf-7d2d-4fed-abbc-6251da951909",
+                    "name": "РЕБ Увімкнути"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 5,
+                            "type": 0,
+                            "value": 1000
+                        }
+                    ],
+                    "id": "391bc88c-c1c8-407e-bcf4-49b64eb85be1",
+                    "name": "РЕБ Вимкнути"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.32.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.32.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.32.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.32.16:554/Streaming/Channels/102",
+                    "type": 1
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3317708373069763,
+                "leftXTop": 0.39791667461395264,
+                "leftYBot": 1,
+                "leftYTop": 0.6242302656173706,
+                "rightXBot": 0.6052083373069763,
+                "rightXTop": 0.5281250476837158,
+                "rightYBot": 1,
+                "rightYTop": 0.6199464797973633
+            },
+            "gcsId": "",
+            "id": "d06fb375-8265-4db5-ad65-d40626238802",
+            "motorTempHost": "",
+            "name": "Crab32",
             "winchEnabled": false
         }
     ]
