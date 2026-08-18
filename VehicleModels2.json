@@ -1095,7 +1095,7 @@
                     "type": 1
                 }
             ],
-            "dimensions": {
+             "dimensions": {
                 "leftXBot": 0.3317708373069763,
                 "leftXTop": 0.39791667461395264,
                 "leftYBot": 1,
