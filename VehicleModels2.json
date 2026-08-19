@@ -1036,14 +1036,14 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXBot": 0.32760417461395264,
+                "leftXTop": 0.4437499940395355,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.5205683708190918,
+                "rightXBot": 0.6932291388511658,
+                "rightXTop": 0.5651041865348816,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.5173206925392151
             },
             "gcsId": "",
             "id": "738f415c-c3f0-46ab-a09a-2d10f40df4b5",
@@ -1095,7 +1095,7 @@
                     "type": 1
                 }
             ],
-             "dimensions": {
+            "dimensions": {
                 "leftXBot": 0.3317708373069763,
                 "leftXTop": 0.39791667461395264,
                 "leftYBot": 1,
@@ -1109,6 +1109,7 @@
             "id": "d06fb375-8265-4db5-ad65-d40626238802",
             "motorTempHost": "",
             "name": "Crab32",
+            "unvAudioOut": "",
             "winchEnabled": false
         }
     ]
