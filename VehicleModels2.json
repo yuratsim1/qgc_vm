@@ -614,7 +614,7 @@
                     "name": "Back",
                     "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video1",
                     "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video2",
-                    "type": 1
+                    "type": 3
                 }
             ],
             "dimensions": {
