@@ -121,10 +121,10 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.0.46.130",
+            "host": "10.23.40.14",
             "id": "33f1119a-11ef-4785-a02a-6d862ed888e5",
             "name": "Ратель340",
-            "port": 10000,
+            "port": 14550,
             "portDisplayName": "",
             "portName": "",
             "type": 1,
@@ -207,12 +207,53 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "738f415c-c3f0-46ab-a09a-2d10f40df4b5"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.68.14",
+            "id": "ac569681-75f1-41f4-8fa6-b00bc2db5e28",
+            "name": "Ратель368",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d8cfvdfa6e5"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.203.14",
+            "id": "4dae2f86-bada-4f80-be00-2bd3eeea7f76",
+            "name": "Поні203",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "d06fb375-8265-4db5-ad65-d40626238203"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.204.14",
+            "id": "4dae2f86-bada-4f80-be00-2bd3eeea7204",
+            "name": "Поні204",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "d06fb375-8265-4db5-ad65-d40626238204"
         }
     ],
     "vehicleModels": [
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.44.15:554/Streaming/Channels/102",
             "audioOut": "",
+            "batteryMax": "54",
+            "batteryMin": "38",
             "buttons": [
             ],
             "cameras": [
@@ -242,6 +283,7 @@
                 "rightYTop": 0.6624144911766052
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "4f2511ea-064f-4848-9f3c-091c586b9da4",
             "motorTempHost": "",
             "name": "Лідія",
@@ -251,6 +293,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.13.15:554/Streaming/Channels/101",
             "audioOut": "10.23.13.13",
+            "batteryMax": "50.4",
+            "batteryMin": "38.4",
             "buttons": [
             ],
             "cameras": [
@@ -280,6 +324,7 @@
                 "rightYTop": 0.55196213722229
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
             "motorTempHost": "",
             "name": "Lynx13",
@@ -289,6 +334,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.64.15:554/Streaming/Channels/101",
             "audioOut": "10.23.64.13",
+            "batteryMax": "50.4",
+            "batteryMin": "38.4",
             "buttons": [
             ],
             "cameras": [
@@ -318,6 +365,7 @@
                 "rightYTop": 0.5887686014175415
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "3a5f768f-5281-4fe6-91f9-08b1a646233a",
             "motorTempHost": "",
             "name": "Lynx64",
@@ -327,6 +375,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.140.15:554/Streaming/Channels/101",
             "audioOut": "10.23.140.13",
+            "batteryMax": "",
+            "batteryMin": "",
             "buttons": [
             ],
             "cameras": [
@@ -356,6 +406,7 @@
                 "rightYTop": 0.5
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a",
             "motorTempHost": "",
             "name": "Lynx40",
@@ -363,46 +414,10 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.57.15:554/Streaming/Channels/101",
-            "audioOut": "10.23.57.13",
-            "buttons": [
-            ],
-            "cameras": [
-                {
-                    "id": "b2304656-9728-49cb-bf60-b5c1761289f5",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.57.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.57.15:554/Streaming/Channels/102",
-                    "type": 1
-                },
-                {
-                    "id": "5078ae20-ef5d-4207-8168-38d2315f5356",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.57.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.57.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.35729166865348816,
-                "leftXTop": 0.4182291626930237,
-                "leftYBot": 1,
-                "leftYTop": 0.6952232718467712,
-                "rightXBot": 0.6145833134651184,
-                "rightXTop": 0.5531250238418579,
-                "rightYBot": 1,
-                "rightYTop": 0.6889927387237549
-            },
-            "gcsId": "",
-            "id": "bd3a0401-9a9e-4eb2-952f-64807bf0d667",
-            "motorTempHost": "",
-            "name": "Lynx57",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.55.15:554/Streaming/Channels/101",
             "audioOut": "10.23.55.13",
+            "batteryMax": "67.2",
+            "batteryMin": "51.2",
             "buttons": [
             ],
             "cameras": [
@@ -432,6 +447,7 @@
                 "rightYTop": 0.6504735946655273
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "ff439ed3-3bfc-4e16-da6f-f93b44446e99",
             "motorTempHost": "",
             "name": "Zmiy55",
@@ -441,6 +457,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.59.15:554/Streaming/Channels/101",
             "audioOut": "10.23.59.13",
+            "batteryMax": "67.2",
+            "batteryMin": "51.2",
             "buttons": [
             ],
             "cameras": [
@@ -470,6 +488,7 @@
                 "rightYTop": 0.5801082253456116
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "ff439ed3-3bfc-4e16-ba6f-f93b4a416e99",
             "motorTempHost": "",
             "name": "Zmiy59",
@@ -477,128 +496,10 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "",
-            "audioOut": "",
-            "buttons": [
-                {
-                    "functions": [
-                        {
-                            "servo": 5,
-                            "type": 0,
-                            "value": 1900
-                        }
-                    ],
-                    "id": "e53ca363-72eb-46d7-a269-e31b1528d1dc",
-                    "name": "Фара ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 5,
-                            "type": 0,
-                            "value": 1100
-                        }
-                    ],
-                    "id": "b9454602-2f75-4030-9fef-ce3c5dce7bce",
-                    "name": "Фара OFF"
-                }
-            ],
-            "cameras": [
-                {
-                    "id": "748f8b97-57c9-4409-904e-ff4e5e2d9fec",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:ASDrty777@10.23.47.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:ASDrty777@10.23.47.15:554/Streaming/Channels/102",
-                    "type": 1
-                },
-                {
-                    "id": "e7941886-a210-44cc-9f69-7cbac4610b79",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:ASDrty777@10.23.47.16:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:ASDrty777@10.23.47.16:554/Streaming/Channels/102",
-                    "type": 1
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.37916669249534607,
-                "leftXTop": 0.4416666626930237,
-                "leftYBot": 1,
-                "leftYTop": 0.70676589012146,
-                "rightXBot": 0.6343749761581421,
-                "rightXTop": 0.5583333373069763,
-                "rightYBot": 1,
-                "rightYTop": 0.7100135087966919
-            },
-            "gcsId": "",
-            "id": "7930228a-8ac5-40c8-abc8-2e2a29858b89",
-            "motorTempHost": "",
-            "name": "Targan47",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.49.15:554/Streaming/Channels/101",
-            "audioOut": "10.23.49.13",
-            "buttons": [
-                {
-                    "functions": [
-                        {
-                            "servo": 5,
-                            "type": 0,
-                            "value": 1900
-                        }
-                    ],
-                    "id": "1dd031f1-ae75-4554-9a3b-d7d975f7debc",
-                    "name": "Фара ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 5,
-                            "type": 0,
-                            "value": 1100
-                        }
-                    ],
-                    "id": "3b977645-e7b3-4da5-b415-761cb32dcfeb",
-                    "name": "Фара OFF"
-                }
-            ],
-            "cameras": [
-                {
-                    "id": "831f622d-6658-43b8-97db-6905671b3064",
-                    "name": "",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.49.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.49.15:554/Streaming/Channels/102",
-                    "type": 1
-                },
-                {
-                    "id": "7fd32bf0-7f13-4743-885e-938dbb770c60",
-                    "name": "",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.49.16:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.49.16:554/Streaming/Channels/102",
-                    "type": 1
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
-                "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
-                "rightYBot": 1,
-                "rightYTop": 0.5
-            },
-            "gcsId": "",
-            "id": "5fb5436a-2020-499f-a164-e7035731cc5e",
-            "motorTempHost": "",
-            "name": "Targan49",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
             "audioOut": "10.23.98.13",
+            "batteryMax": "84",
+            "batteryMin": "64",
             "buttons": [
             ],
             "cameras": [
@@ -614,7 +515,7 @@
                     "name": "Back",
                     "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video1",
                     "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video2",
-                    "type": 3
+                    "type": 1
                 }
             ],
             "dimensions": {
@@ -628,6 +529,7 @@
                 "rightYTop": 0.6569688320159912
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
             "motorTempHost": "",
             "name": "Поні 98 модель",
@@ -637,6 +539,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.116.15:554/Streaming/Channels/101",
             "audioOut": "10.23.116.13",
+            "batteryMax": "84",
+            "batteryMin": "64",
             "buttons": [
             ],
             "cameras": [
@@ -666,6 +570,7 @@
                 "rightYTop": 0.6742895245552063
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "fe2fbf75-e24f-42f3-8c80-5e58222db12b",
             "motorTempHost": "",
             "name": "Поні 116 модель",
@@ -675,6 +580,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.66.15:554/Streaming/Channels/101",
             "audioOut": "10.23.66.13",
+            "batteryMax": "67.2",
+            "batteryMin": "51.2",
             "buttons": [
             ],
             "cameras": [
@@ -704,6 +611,7 @@
                 "rightYTop": 0.6970229744911194
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "fe2fbf75-e94f-42f3-8c80-5e587rrdb12b",
             "motorTempHost": "",
             "name": "Вархан 66 модель",
@@ -713,6 +621,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.213.15:554/Streaming/Channels/102",
             "audioOut": "10.23.213.13",
+            "batteryMax": "",
+            "batteryMin": "",
             "buttons": [
             ],
             "cameras": [
@@ -742,6 +652,7 @@
                 "rightYTop": 0.630987823009491
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "33f61f9a-11ef-4785-a02a-6d862ttta6e5",
             "motorTempHost": "",
             "name": "Танчик1_213_m",
@@ -749,46 +660,106 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "",
+            "audioIn": "rtsp://admin:camera12!@10.23.40.15:554/media/video1",
             "audioOut": "",
+            "batteryMax": "73",
+            "batteryMin": "56",
             "buttons": [
             ],
             "cameras": [
                 {
-                    "id": "0060294e-735d-48c6-ab85-128b1f384ce1",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:camera12!@10.0.46.142:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:camera12!@10.0.46.142:554/media/video2",
-                    "type": 1
+                    "id": "1539dfa5-3e2d-4518-906a-fbaf96e10b16",
+                    "name": "front2",
+                    "rtspPrimary": "rtsp://admin:camera12!@10.23.40.17:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:camera12!@10.23.40.17:554/media/video2",
+                    "type": 3
                 },
                 {
                     "id": "c6e94970-2786-4d7c-ac94-5736f373c18d",
                     "name": "Back",
-                    "rtspPrimary": "rtsp://admin:camera12!@10.0.46.141:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:camera12!@10.0.46.141:554/media/video2",
-                    "type": 1
+                    "rtspPrimary": "rtsp://admin:camera12!@10.23.40.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:camera12!@10.23.40.16:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "0060294e-735d-48c6-ab85-128b1f384ce1",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:camera12!@10.23.40.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:camera12!@10.23.40.15:554/media/video2",
+                    "type": 3
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.33802083134651184,
-                "leftXTop": 0.4192708432674408,
+                "leftXBot": 0.22447916865348816,
+                "leftXTop": 0.3947916626930237,
                 "leftYBot": 1,
-                "leftYTop": 0.6342354416847229,
-                "rightXBot": 0.6744791865348816,
-                "rightXTop": 0.5708333849906921,
+                "leftYTop": 0.5714479088783264,
+                "rightXBot": 0.796875,
+                "rightXTop": 0.6234375238418579,
                 "rightYBot": 1,
-                "rightYTop": 0.6353179812431335
+                "rightYTop": 0.5703653693199158
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "33f61f9a-11ef-4785-a02a-6d8633tta6e5",
             "motorTempHost": "",
             "name": "Ratel340_v",
+            "unvAudioOut": "rtsp://admin:camera12!@10.23.40.13:554/Streaming/Channels/101",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:camera12!@10.23.68.15:554/media/video1",
+            "audioOut": "",
+            "batteryMax": "73",
+            "batteryMin": "56",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "1539dfa5-3e2d-4518-906a-fbaf96e10b16",
+                    "name": "front2",
+                    "rtspPrimary": "rtsp://admin:camera12!@10.23.68.17:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:camera12!@10.23.68.17:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "c6e94970-2786-4d7c-ac94-5736f373c18d",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:camera12!@10.23.68.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:camera12!@10.23.68.16:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "0060294e-735d-48c6-ab85-128b1f384ce1",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:camera12!@10.23.68.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:camera12!@10.23.68.15:554/media/video2",
+                    "type": 3
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.22447916865348816,
+                "leftXTop": 0.3947916626930237,
+                "leftYBot": 1,
+                "leftYTop": 0.5714479088783264,
+                "rightXBot": 0.796875,
+                "rightXTop": 0.6234375238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5703653693199158
+            },
+            "gcsId": "",
+            "hikAudioOut": "rtsp://admin:camera12!@10.23.68.13",
+            "id": "33f61f9a-11ef-4785-a02a-6d8cfvdfa6e5",
+            "motorTempHost": "",
+            "name": "Ratel368",
             "unvAudioOut": "",
             "winchEnabled": false
         },
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.18.15:554/Streaming/Channels/101",
             "audioOut": "10.23.18.13",
+            "batteryMax": "58.8",
+            "batteryMin": "44.8",
             "buttons": [
             ],
             "cameras": [
@@ -818,6 +789,7 @@
                 "rightYTop": 0.5
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "d6cb0b99-b809-425b-ac48-7a893e341cbc",
             "motorTempHost": "",
             "name": "Терміт18",
@@ -825,46 +797,10 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.85.15:554/Streaming/Channels/101",
-            "audioOut": "10.23.85.13",
-            "buttons": [
-            ],
-            "cameras": [
-                {
-                    "id": "a36a49e8-7906-4ee8-9ba2-68ac1ca3b66c",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.85.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.85.15:554/Streaming/Channels/102",
-                    "type": 1
-                },
-                {
-                    "id": "a2fbc9f6-1d08-45a2-9696-4a40286c7466",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.85.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.85.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.2838541865348816,
-                "leftXTop": 0.42135417461395264,
-                "leftYBot": 1,
-                "leftYTop": 0.5411366820335388,
-                "rightXBot": 0.7484374642372131,
-                "rightXTop": 0.5885416865348816,
-                "rightYBot": 1,
-                "rightYTop": 0.5324763059616089
-            },
-            "gcsId": "",
-            "id": "536c7ddf-6967-4e45-bdd9-06f3bfffa357",
-            "motorTempHost": "",
-            "name": "Konyk85",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.36.15:554/Streaming/Channels/101",
             "audioOut": "10.23.36.13",
+            "batteryMax": "65.9",
+            "batteryMin": "51.2",
             "buttons": [
             ],
             "cameras": [
@@ -894,6 +830,7 @@
                 "rightYTop": 0.5974289774894714
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "9dd05146-1592-4b27-b3c2-c72100e78b45",
             "motorTempHost": "",
             "name": "Змій36логіст",
@@ -903,6 +840,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.36.15:554/Streaming/Channels/101",
             "audioOut": "10.23.36.13",
+            "batteryMax": "65.9",
+            "batteryMin": "51.2",
             "buttons": [
             ],
             "cameras": [
@@ -932,6 +871,7 @@
                 "rightYTop": 0.5974289774894714
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "9dd05146-1592-4b27-b3c2-c72111178b45",
             "motorTempHost": "",
             "name": "Змій36евак",
@@ -941,6 +881,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.19.15:554/Streaming/Channels/101",
             "audioOut": "10.23.19.14",
+            "batteryMax": "50.4",
+            "batteryMin": "38.4",
             "buttons": [
             ],
             "cameras": [
@@ -970,6 +912,7 @@
                 "rightYTop": 0.5703653693199158
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "e3ae7afe-ed20-4443-9240-8a7b66bd362d",
             "motorTempHost": "",
             "name": "Рись19",
@@ -979,6 +922,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.218.15:554/Streaming/Channels/101",
             "audioOut": "10.23.218.14",
+            "batteryMax": "50.4",
+            "batteryMin": "38.4",
             "buttons": [
             ],
             "cameras": [
@@ -1008,6 +953,7 @@
                 "rightYTop": 0.5703653693199158
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "3edb3d40-6905-45f4-8549-f6a95385dd78",
             "motorTempHost": "",
             "name": "Рись18",
@@ -1017,6 +963,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.71.15:554/Streaming/Channels/101",
             "audioOut": "",
+            "batteryMax": "50.4",
+            "batteryMin": "38.4",
             "buttons": [
             ],
             "cameras": [
@@ -1046,6 +994,7 @@
                 "rightYTop": 0.5173206925392151
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "738f415c-c3f0-46ab-a09a-2d10f40df4b5",
             "motorTempHost": "",
             "name": "Рись71",
@@ -1055,6 +1004,8 @@
         {
             "audioIn": "rtsp://admin:Q12wazxsw@10.23.32.15:554/Streaming/Channels/102",
             "audioOut": "10.23.32.14",
+            "batteryMax": "",
+            "batteryMin": "",
             "buttons": [
                 {
                     "functions": [
@@ -1106,10 +1057,93 @@
                 "rightYTop": 0.6199464797973633
             },
             "gcsId": "",
+            "hikAudioOut": "",
             "id": "d06fb375-8265-4db5-ad65-d40626238802",
             "motorTempHost": "",
             "name": "Crab32",
             "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.203.15:554/media/video1",
+            "audioOut": "",
+            "batteryMax": "84",
+            "batteryMin": "64",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.203.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.203.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.203.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.203.16:554/media/video2",
+                    "type": 3
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3317708373069763,
+                "leftXTop": 0.39791667461395264,
+                "leftYBot": 1,
+                "leftYTop": 0.6242302656173706,
+                "rightXBot": 0.6052083373069763,
+                "rightXTop": 0.5281250476837158,
+                "rightYBot": 1,
+                "rightYTop": 0.6199464797973633
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "d06fb375-8265-4db5-ad65-d40626238203",
+            "motorTempHost": "",
+            "name": "Поні203",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.203.15:554/media/video1",
+            "winchEnabled": false
+        },
+         {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.204.15:554/media/video1",
+            "audioOut": "",
+            "batteryMax": "84",
+            "batteryMin": "64",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.204.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.204.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.204.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.204.16:554/media/video2",
+                    "type": 3
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3317708373069763,
+                "leftXTop": 0.39791667461395264,
+                "leftYBot": 1,
+                "leftYTop": 0.6242302656173706,
+                "rightXBot": 0.6052083373069763,
+                "rightXTop": 0.5281250476837158,
+                "rightYBot": 1,
+                "rightYTop": 0.6199464797973633
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "d06fb375-8265-4db5-ad65-d40626238204",
+            "motorTempHost": "",
+            "name": "Поні204",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.204.15:554/media/video1",
             "winchEnabled": false
         }
     ]
