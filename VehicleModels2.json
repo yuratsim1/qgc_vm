@@ -481,25 +481,47 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
-            "audioOut": "10.23.98.13",
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.98.15:554/media/video1",
+            "audioOut": "",
             "batteryMax": "84",
             "batteryMin": "64",
             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "cbc45c4a-e75a-48c4-b95a-627c0413c280",
+                    "name": "РЕБ Увімкнути"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "044b9856-71e8-4fad-8e53-5bb7c9822832",
+                    "name": "РЕБ Вимкнути"
+                }
             ],
             "cameras": [
                 {
                     "id": "148ea86f-de67-46e5-bd32-3508e894e3c5",
                     "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.98.15:554/Streaming/Channels/102",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.98.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.98.15:554/media/video2",
                     "type": 1
                 },
                 {
                     "id": "688dca50-1e85-46c1-8441-51d2d8be71cf",
                     "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.98.16:554/media/video2",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.98.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.98.16:554/Streaming/Channels/102",
                     "type": 1
                 }
             ],
@@ -518,7 +540,7 @@
             "id": "fe2fbf75-e24f-42f3-8c80-5e58701db12b",
             "motorTempHost": "",
             "name": "Поні 98 модель",
-            "unvAudioOut": "",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.98.15:554/media/video1",
             "winchEnabled": false
         },
         {
@@ -567,6 +589,8 @@
             "audioOut": "10.23.66.13",
             "batteryMax": "67.2",
             "batteryMin": "51.2",
+            "buttons": [
+            ],
             "cameras": [
                 {
                     "id": "148ea86f-de67-46e5-bd32-3g08e894e3c7",
