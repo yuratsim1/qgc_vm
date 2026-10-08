@@ -1378,8 +1378,8 @@
         {
             "audioIn": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video2",
             "audioOut": "",
-            "batteryMax": "54.6",
-            "batteryMin": "39",
+            "batteryMax": "50.4",
+            "batteryMin": "38.4",
             "buttons": [
                 {
                     "functions": [
