@@ -17,19 +17,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.13.14",
-            "id": "3a5f768f-5281-4fe6-91f9-08b1a7e6777a",
-            "name": "Рись13",
-            "port": 14552,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "3a5f768f-5281-4fe6-91f9-08b1a7e6233a"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.64.14",
             "id": "a6c76b57-3c6c-4c7c-8b1d-6be4d546c263",
             "name": "Рись64",
@@ -56,19 +43,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.98.14",
-            "id": "148ea86f-de67-46e5-bd32-35022224e3c5",
-            "name": "Поні 98",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "fe2fbf75-e24f-42f3-8c80-5e58701db12b"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.116.14",
             "id": "148ea86f-de67-46e5-bd32-77722224e3c5",
             "name": "Поні 116",
@@ -90,123 +64,6 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "fe2fbf75-e94f-42f3-8c80-5e587rrdb12b"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.213.14",
-            "id": "33f61f9a-11ef-4785-a02a-6d862ed888e5",
-            "name": "Танчик1_213",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d862ttta6e5"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.18.14",
-            "id": "33f61f9a-11ef-4785-a02a-6d862ed11115",
-            "name": "Терміт18",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "d6cb0b99-b809-425b-ac48-7a893e341cbc"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.40.14",
-            "id": "33f1119a-11ef-4785-a02a-6d862ed888e5",
-            "name": "Ратель340",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d8633tta6e5"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.19.14",
-            "id": "2453c241-2d01-4606-8d9f-d16ceff65f1e",
-            "name": "Рись19",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "e3ae7afe-ed20-4443-9240-8a7b66bd362d"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.36.14",
-            "id": "b9f5ce06-d5a8-4061-bcf4-b7b1d954454f",
-            "name": "Змій36_логіст",
-            "port": 14540,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "9dd05146-1592-4b27-b3c2-c72100e78b45"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.36.14",
-            "id": "3e630686-1db2-4981-929d-99af10d10e9b",
-            "name": "Змій36_евак",
-            "port": 14540,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "9dd05146-1592-4b27-b3c2-c72111178b45"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.218.14",
-            "id": "2043eaf5-235a-40d2-a1c4-03f03512cfe3",
-            "name": "Рись18",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "3edb3d40-6905-45f4-8549-f6a95385dd78"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.32.14",
-            "id": "1ddc09bd-72dc-43a4-bc1a-4358db7a22d3",
-            "name": "Краб32",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "d06fb375-8265-4db5-ad65-d40626238802"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.71.14",
-            "id": "86ca54ab-af8d-4163-9a64-819299f7659e",
-            "name": "Рись71",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "738f415c-c3f0-46ab-a09a-2d10f40df4b5"
         },
         {
             "autoConnect": false,
@@ -251,32 +108,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.125.14",
-            "id": "75285a9e-9e96-4827-a1e0-193e43b6bb27",
-            "name": "Воля 125",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc8a2"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.128.14",
-            "id": "fe62cec7-700d-4a5b-8f17-f9389cf510eb",
-            "name": "Воля128",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc128"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.74.14",
             "id": "b9f5ce06-d5a8-4061-bcf4-b7b1d9544574",
             "name": "Змій74",
@@ -298,6 +129,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "b7fcd579-29e6-4eb6-ad53-ff80da0fa159"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.91.14",
+            "id": "cf127bcd-6cd6-434a-8f50-e43f24705b72",
+            "name": "Танчик91",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "b7fcd579-29e6-4eb6-ad53-ff80da0fa191"
         }
     ],
     "vehicleModels": [
@@ -1436,6 +1280,91 @@
             "motorTempHost": "",
             "name": "Рись70",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video1",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.91.15:554/Streaming/Channels/102",
+            "audioOut": "10.23.91.14",
+            "batteryMax": "67.2",
+            "batteryMin": "48",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
+                    "name": "Передній сіткомет ВКЛ"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "5af31db1-5f7e-44c2-9b6f-75dd90c52b3e",
+                    "name": "Передній сіткомет ВИКЛ"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
+                    "name": "Задній сіткомет ВКЛ"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "5af31db1-5f7e-44c2-9b6f-75dd90c52b3e",
+                    "name": "Задній сіткомет ВИКЛ"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "f52f5588-a257-4724-a910-9b893b6dae5b",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.91.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.91.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "86dad650-c0d5-4053-9bed-9320fe46dfed",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.91.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.91.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.36145833134651184,
+                "leftXTop": 0.4296875298023224,
+                "leftYBot": 1,
+                "leftYTop": 0.6362266540527344,
+                "rightXBot": 0.6380208134651184,
+                "rightXTop": 0.5703125,
+                "rightYBot": 1,
+                "rightYTop": 0.6329790353775024
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "b7fcd579-29e6-4eb6-ad53-ff80da0fa191",
+            "motorTempHost": "",
+            "name": "Танчик91",
+            "unvAudioOut": "",
             "winchEnabled": false
         }
     ]
