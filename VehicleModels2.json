@@ -1253,10 +1253,15 @@
                             "servo": 0,
                             "type": 1,
                             "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
                         }
                     ],
                     "id": "52462fa4-25d4-41b8-9de1-906ddd0d85a0",
-                    "name": "Сіткомет Перед ON"
+                    "name": "Сіткомет Перед"
                 },
                 {
                     "functions": [
@@ -1264,32 +1269,15 @@
                             "servo": 1,
                             "type": 1,
                             "value": 1
-                        }
-                    ],
-                    "id": "789d8c25-0c1a-402c-959a-80e61f61c530",
-                    "name": "Сіткомет Зад ON"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 0,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "386db2c4-0fb8-4515-8002-aeb39cbed836",
-                    "name": "Сіткомет Перед OFF"
-                },
-                {
-                    "functions": [
+                        },
                         {
                             "servo": 1,
                             "type": 1,
                             "value": 0
                         }
                     ],
-                    "id": "6769b3e7-9b1f-491e-bdbc-c054f46f1c85",
-                    "name": "Сіткомет Зад OFF"
+                    "id": "789d8c25-0c1a-402c-959a-80e61f61c530",
+                    "name": "Сіткомет Зад"
                 }
             ],
             "cameras": [
@@ -1338,21 +1326,15 @@
                             "servo": 1,
                             "type": 1,
                             "value": 1
-                        }
-                    ],
-                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
-                    "name": "Передній сіткомет ВКЛ"
-                },
-                {
-                    "functions": [
+                        },
                         {
                             "servo": 1,
                             "type": 1,
                             "value": 0
                         }
                     ],
-                    "id": "5af31db1-5f7e-44c2-9b6f-75dd90c52b3e",
-                    "name": "Передній сіткомет ВИКЛ"
+                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
+                    "name": "Передній сіткомет"
                 },
                 {
                     "functions": [
@@ -1360,21 +1342,15 @@
                             "servo": 0,
                             "type": 1,
                             "value": 1
-                        }
-                    ],
-                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
-                    "name": "Задній сіткомет ВКЛ"
-                },
-                {
-                    "functions": [
+                        },
                         {
                             "servo": 0,
                             "type": 1,
                             "value": 0
                         }
                     ],
-                    "id": "5af31db1-5f7e-44c2-9b6f-75dd90c52b3e",
-                    "name": "Задній сіткомет ВИКЛ"
+                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
+                    "name": "Задній сіткомет"
                 }
             ],
             "cameras": [
