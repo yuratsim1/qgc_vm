@@ -1222,8 +1222,8 @@
         {
             "audioIn": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video2",
             "audioOut": "",
-            "batteryMax": "50.4",
-            "batteryMin": "38.4",
+            "batteryMax": "54.6",
+            "batteryMin": "39",
             "buttons": [
                 {
                     "functions": [
@@ -1246,6 +1246,50 @@
                     ],
                     "id": "5af31db1-5f7e-44c2-9b6f-75dd90c52b3e",
                     "name": "Фара Вимкнена"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "52462fa4-25d4-41b8-9de1-906ddd0d85a0",
+                    "name": "Сіткомет Перед ON"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "789d8c25-0c1a-402c-959a-80e61f61c530",
+                    "name": "Сіткомет Зад ON"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "386db2c4-0fb8-4515-8002-aeb39cbed836",
+                    "name": "Сіткомет Перед OFF"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "6769b3e7-9b1f-491e-bdbc-c054f46f1c85",
+                    "name": "Сіткомет Зад OFF"
                 }
             ],
             "cameras": [
