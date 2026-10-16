@@ -1314,9 +1314,9 @@
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video1",
             "winchEnabled": false
         },
-        {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.91.15:554/Streaming/Channels/102",
-            "audioOut": "10.23.91.14",
+         {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.91.15:554/media/video2",
+            "audioOut": "",
             "batteryMax": "67.2",
             "batteryMin": "48",
             "buttons": [
@@ -1357,9 +1357,9 @@
                 {
                     "id": "f52f5588-a257-4724-a910-9b893b6dae5b",
                     "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.91.15:554/Streaming/Channels/101",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.91.15:554/Streaming/Channels/102",
-                    "type": 1
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.91.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.91.15:554/media/video2",
+                    "type": 3
                 },
                 {
                     "id": "86dad650-c0d5-4053-9bed-9320fe46dfed",
@@ -1370,21 +1370,21 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.36145833134651184,
-                "leftXTop": 0.4296875298023224,
+                "leftXBot": 0.3296875059604645,
+                "leftXTop": 0.40937504172325134,
                 "leftYBot": 1,
-                "leftYTop": 0.6362266540527344,
-                "rightXBot": 0.6380208134651184,
-                "rightXTop": 0.5703125,
+                "leftYTop": 0.5831819772720337,
+                "rightXBot": 0.6432291269302368,
+                "rightXTop": 0.589062511920929,
                 "rightYBot": 1,
-                "rightYTop": 0.6329790353775024
+                "rightYTop": 0.5810168981552124
             },
             "gcsId": "",
             "hikAudioOut": "",
             "id": "b7fcd579-29e6-4eb6-ad53-ff80da0fa191",
             "motorTempHost": "",
             "name": "Танчик91",
-            "unvAudioOut": "",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.91.15:554/media/video2",
             "winchEnabled": false
         }
     ]
