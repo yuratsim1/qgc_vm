@@ -56,19 +56,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.66.14",
-            "id": "148ea86f-de97-46e5-aa32-35022224e3c5",
-            "name": "Вархан 66",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "fe2fbf75-e94f-42f3-8c80-5e587rrdb12b"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.68.14",
             "id": "ac569681-75f1-41f4-8fa6-b00bc2db5e28",
             "name": "Ратель368",
@@ -121,19 +108,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.70.14",
-            "id": "bfa1c438-ea21-4da7-939d-8cf96c493e89",
-            "name": "Рись70",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "b7fcd579-29e6-4eb6-ad53-ff80da0fa159"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.91.14",
             "id": "cf127bcd-6cd6-434a-8f50-e43f24705b72",
             "name": "Танчик91",
@@ -142,6 +116,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "b7fcd579-29e6-4eb6-ad53-ff80da0fa191"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.62.14",
+            "id": "848ffe03-fc1a-4b7f-ad5f-ac16844155a7",
+            "name": "Танчик602",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "13a0c733-6503-4b80-8c28-b6371b749141"
         }
     ],
     "vehicleModels": [
@@ -418,7 +405,39 @@
             "audioOut": "10.23.116.13",
             "batteryMax": "84",
             "batteryMin": "64",
-            "buttons": [
+             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                }
             ],
             "cameras": [
                 {
@@ -1068,110 +1087,6 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.125.15:554/cam/realmonitor?channel=1&subtype=1",
-            "audioOut": "10.23.125.13",
-            "batteryMax": "54.6",
-            "batteryMin": "41.6",
-            "buttons": [
-            ],
-            "cameras": [
-                {
-                    "id": "7694c4bb-857b-49ad-94dd-73b2034800cf",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.125.15:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.125.15:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                },
-                {
-                    "id": "3bbf0618-33a5-47fc-88bf-9f5279dbf496",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.125.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.125.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.3817708492279053,
-                "leftXTop": 0.42395833134651184,
-                "leftYBot": 1,
-                "leftYTop": 0.6991881132125854,
-                "rightXBot": 0.6135416626930237,
-                "rightXTop": 0.5682291984558105,
-                "rightYBot": 1,
-                "rightYTop": 0.6926928162574768
-            },
-            "gcsId": "",
-            "hikAudioOut": "",
-            "id": "591a76cf-d6ff-4969-9942-8362204cc8a2",
-            "motorTempHost": "",
-            "name": "Воля125",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=1",
-            "audioOut": "10.23.128.13",
-            "batteryMax": "54.6",
-            "batteryMin": "41.6",
-            "buttons": [
-                {
-                    "functions": [
-                        {
-                            "servo": 0,
-                            "type": 1,
-                            "value": 1
-                        }
-                    ],
-                    "id": "eb508033-a155-4f3f-90ea-a4f1cf1f8d1e",
-                    "name": "Фара вкл"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 0,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "1e4c1b73-eaeb-4c56-82f2-bc17d5179505",
-                    "name": "Фара викл"
-                }
-            ],
-            "cameras": [
-                {
-                    "id": "7694c4bb-857b-49ad-94dd-73b2034800cf",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.128.15:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                },
-                {
-                    "id": "3bbf0618-33a5-47fc-88bf-9f5279dbf496",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.128.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.128.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.3817708492279053,
-                "leftXTop": 0.42395833134651184,
-                "leftYBot": 1,
-                "leftYTop": 0.6991881132125854,
-                "rightXBot": 0.6135416626930237,
-                "rightXTop": 0.5682291984558105,
-                "rightYBot": 1,
-                "rightYTop": 0.6926928162574768
-            },
-            "gcsId": "",
-            "hikAudioOut": "",
-            "id": "591a76cf-d6ff-4969-9942-8362204cc128",
-            "motorTempHost": "",
-            "name": "Воля128",
-            "unvAudioOut": "",
-            "winchEnabled": false
-        },
-        {
             "audioIn": "rtsp://admin:Q!2wazxsw@10.23.74.15:554/media/video1",
             "audioOut": "",
             "batteryMax": "65.9",
@@ -1220,105 +1135,10 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video2",
-            "audioOut": "",
-            "batteryMax": "54.6",
-            "batteryMin": "39",
-            "buttons": [
-                {
-                    "functions": [
-                        {
-                            "servo": 5,
-                            "type": 0,
-                            "value": 2000
-                        }
-                    ],
-                    "id": "11b292fa-8ace-45bf-ae8f-7360d09ab3a1",
-                    "name": "Фара Увімкнена"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 5,
-                            "type": 0,
-                            "value": 1000
-                        }
-                    ],
-                    "id": "5af31db1-5f7e-44c2-9b6f-75dd90c52b3e",
-                    "name": "Фара Вимкнена"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 0,
-                            "type": 1,
-                            "value": 1
-                        },
-                        {
-                            "servo": 0,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "52462fa4-25d4-41b8-9de1-906ddd0d85a0",
-                    "name": "Сіткомет Перед"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 1,
-                            "type": 1,
-                            "value": 1
-                        },
-                        {
-                            "servo": 1,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "789d8c25-0c1a-402c-959a-80e61f61c530",
-                    "name": "Сіткомет Зад"
-                }
-            ],
-            "cameras": [
-                {
-                    "id": "f52f5588-a257-4724-a910-9b893b6dae5b",
-                    "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video2",
-                    "type": 3
-                },
-                {
-                    "id": "86dad650-c0d5-4053-9bed-9320fe46dfed",
-                    "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.70.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.70.16:554/cam/realmonitor?channel=1&subtype=1",
-                    "type": 2
-                }
-            ],
-            "dimensions": {
-                "leftXBot": 0.328125,
-                "leftXTop": 0.4598958492279053,
-                "leftYBot": 1,
-                "leftYTop": 0.5160642862319946,
-                "rightXBot": 0.6875,
-                "rightXTop": 0.589062511920929,
-                "rightYBot": 1,
-                "rightYTop": 0.5160642862319946
-            },
-            "gcsId": "",
-            "hikAudioOut": "",
-            "id": "b7fcd579-29e6-4eb6-ad53-ff80da0fa159",
-            "motorTempHost": "",
-            "name": "Рись70",
-            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.70.15:554/media/video1",
-            "winchEnabled": false
-        },
-         {
             "audioIn": "rtsp://admin:Q!2wazxsw@10.23.91.15:554/media/video2",
             "audioOut": "",
             "batteryMax": "67.2",
-            "batteryMin": "48",
+            "batteryMin": "50",
             "buttons": [
                 {
                     "functions": [
@@ -1385,6 +1205,79 @@
             "motorTempHost": "",
             "name": "Танчик91",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.91.15:554/media/video2",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.62.15:554/media/video2",
+            "audioOut": "",
+            "batteryMax": "67.2",
+            "batteryMin": "50",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "484d689e-ae36-4d2f-872f-093f439ba0f8",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.62.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.62.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "a3cb265a-2b0f-491b-9a91-4df861d95e4c",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.62.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.62.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3296875059604645,
+                "leftXTop": 0.40937504172325134,
+                "leftYBot": 1,
+                "leftYTop": 0.5831819772720337,
+                "rightXBot": 0.6432291269302368,
+                "rightXTop": 0.589062511920929,
+                "rightYBot": 1,
+                "rightYTop": 0.5810168981552124
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "13a0c733-6503-4b80-8c28-b6371b749141",
+            "motorTempHost": "",
+            "name": "Танчик62",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.62.15:554/media/video2",
             "winchEnabled": false
         }
     ]
