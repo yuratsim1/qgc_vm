@@ -1334,12 +1334,12 @@
                 {
                     "functions": [
                         {
-                            "servo": 0,
+                            "servo": 1,
                             "type": 1,
                             "value": 1
                         },
                         {
-                            "servo": 0,
+                            "servo": 1,
                             "type": 1,
                             "value": 0
                         }
@@ -1350,12 +1350,12 @@
                 {
                     "functions": [
                         {
-                            "servo": 1,
+                            "servo": 0,
                             "type": 1,
                             "value": 1
                         },
                         {
-                            "servo": 1,
+                            "servo": 0,
                             "type": 1,
                             "value": 0
                         }
