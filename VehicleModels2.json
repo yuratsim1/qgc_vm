@@ -1334,12 +1334,12 @@
                 {
                     "functions": [
                         {
-                            "servo": 1,
+                            "servo": 0,
                             "type": 1,
                             "value": 1
                         },
                         {
-                            "servo": 1,
+                            "servo": 0,
                             "type": 1,
                             "value": 0
                         }
@@ -1350,12 +1350,12 @@
                 {
                     "functions": [
                         {
-                            "servo": 0,
+                            "servo": 1,
                             "type": 1,
                             "value": 1
                         },
                         {
-                            "servo": 0,
+                            "servo": 1,
                             "type": 1,
                             "value": 0
                         }
@@ -1381,14 +1381,14 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.3296875059604645,
-                "leftXTop": 0.40937504172325134,
+                "leftXBot": 0.3177083432674408,
+                "leftXTop": 0.3906250298023224,
                 "leftYBot": 1,
-                "leftYTop": 0.5831819772720337,
+                "leftYTop": 0.5799343585968018,
                 "rightXBot": 0.6432291269302368,
-                "rightXTop": 0.589062511920929,
+                "rightXTop": 0.582812488079071,
                 "rightYBot": 1,
-                "rightYTop": 0.5810168981552124
+                "rightYTop": 0.582099437713623
             },
             "gcsId": "",
             "hikAudioOut": "",
