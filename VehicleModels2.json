@@ -129,6 +129,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "13a0c733-6503-4b80-8c28-b6371b749141"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.97.14",
+            "id": "a63186c6-cdb4-46f9-93f2-a4c0d8ee2285",
+            "name": "Танчик97",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "13a0c733-6503-4b80-8c28-b6371b749197"
         }
     ],
     "vehicleModels": [
@@ -405,7 +418,7 @@
             "audioOut": "10.23.116.13",
             "batteryMax": "84",
             "batteryMin": "64",
-             "buttons": [
+            "buttons": [
                 {
                     "functions": [
                         {
@@ -1010,6 +1023,38 @@
             "batteryMax": "84",
             "batteryMin": "64",
             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                }
             ],
             "cameras": [
                 {
@@ -1022,20 +1067,20 @@
                 {
                     "id": "",
                     "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.203.16:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.203.16:554/media/video2",
-                    "type": 3
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.203.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.203.16:554/Streaming/Channels/102",
+                    "type": 1
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.3317708373069763,
-                "leftXTop": 0.39791667461395264,
+                "leftXBot": 0.3552083373069763,
+                "leftXTop": 0.4140625,
                 "leftYBot": 1,
-                "leftYTop": 0.6242302656173706,
-                "rightXBot": 0.6052083373069763,
-                "rightXTop": 0.5281250476837158,
+                "leftYTop": 0.6188175678253174,
+                "rightXBot": 0.6583333611488342,
+                "rightXTop": 0.5729166865348816,
                 "rightYBot": 1,
-                "rightYTop": 0.6199464797973633
+                "rightYTop": 0.6145337820053101
             },
             "gcsId": "",
             "hikAudioOut": "",
@@ -1278,6 +1323,79 @@
             "motorTempHost": "",
             "name": "Танчик62",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.62.15:554/media/video2",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.97.15:554/media/video2",
+            "audioOut": "",
+            "batteryMax": "67.2",
+            "batteryMin": "50",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "484d689e-ae36-4d2f-872f-093f439ba0f8",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.97.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.97.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "a3cb265a-2b0f-491b-9a91-4df861d95e4c",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.97.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.97.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3296875059604645,
+                "leftXTop": 0.40937504172325134,
+                "leftYBot": 1,
+                "leftYTop": 0.5831819772720337,
+                "rightXBot": 0.6432291269302368,
+                "rightXTop": 0.589062511920929,
+                "rightYBot": 1,
+                "rightYTop": 0.5810168981552124
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "13a0c733-6503-4b80-8c28-b6371b749197",
+            "motorTempHost": "",
+            "name": "Танчик97",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.97.15:554/media/video2",
             "winchEnabled": false
         }
     ]
