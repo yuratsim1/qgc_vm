@@ -155,6 +155,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "13a0c733-6503-4b80-8c28-b6371b749196"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.254.14",
+            "id": "494e29b6-763f-41ba-9cf2-88e9b8bc3dbc",
+            "name": "Поні254",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "8c8a135b-3a54-47a4-85ae-8cc89f7cbad2"
         }
     ],
     "vehicleModels": [
@@ -1482,6 +1495,79 @@
             "motorTempHost": "",
             "name": "Танчик96",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.96.15:554/media/video2",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.254.15:554/media/video2",
+            "audioOut": "",
+            "batteryMax": "84",
+            "batteryMin": "64",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "06e1832f-2184-461e-add5-a1c3f890937c",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.254.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.254.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "0ce40211-3068-45db-bdf5-1d1e65004abc",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.254.16:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.254.16:554/media/video2",
+                    "type": 3
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3307291865348816,
+                "leftXTop": 0.39375001192092896,
+                "leftYBot": 1,
+                "leftYTop": 0.6526386737823486,
+                "rightXBot": 0.5942708253860474,
+                "rightXTop": 0.5401041507720947,
+                "rightYBot": 1,
+                "rightYTop": 0.651556134223938
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "8c8a135b-3a54-47a4-85ae-8cc89f7cbad2",
+            "motorTempHost": "",
+            "name": "Поні254",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.254.15:554/media/video2",
             "winchEnabled": false
         }
     ]
