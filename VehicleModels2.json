@@ -1624,20 +1624,20 @@
                 {
                     "id": "7da0003a-339f-4650-ad3f-c05572b2e3f3",
                     "name": "de",
-                    "rtspPrimary": "rtsp://10.23.21.13:8555/stream",
-                    "rtspSecondary": "rtsp://10.23.21.13:8555/stream",
+                    "rtspPrimary": "rtsp://10.23.21.13:8554/ugv",
+                    "rtspSecondary": "rtsp://10.23.21.13:8554/ugv",
                     "type": 0
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXBot": 0.3239583373069763,
+                "leftXTop": 0.4333333373069763,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.70676589012146,
+                "rightXBot": 0.6656249761581421,
+                "rightXTop": 0.5510416626930237,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.7110960483551025
             },
             "gcsId": "",
             "hikAudioOut": "",
