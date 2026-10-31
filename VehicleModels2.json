@@ -168,6 +168,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "8c8a135b-3a54-47a4-85ae-8cc89f7cbad2"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.21.14",
+            "id": "e34b5fcd-824b-4146-bdc5-907025e6c3d1",
+            "name": "Mangal21",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "c848eb3c-f9ed-4e75-8275-86f9a80a420d"
         }
     ],
     "vehicleModels": [
@@ -1568,6 +1581,70 @@
             "motorTempHost": "",
             "name": "Поні254",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.254.15:554/media/video2",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.21.15:554/Streaming/Channels/101",
+            "audioOut": "",
+            "batteryMax": "54.6",
+            "batteryMin": "41.6",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "810bd88c-1e08-43a0-ba17-19b9ce69079c",
+                    "name": "Увікнути / Вимкнути мотори"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "21ec80ba-1b80-4a52-aef6-4e321be4cfc1",
+                    "name": "",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.21.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.21.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "f28fc3dc-be81-40d7-94d9-d5f56fca9bdb",
+                    "name": "",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.21.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.21.16:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "7da0003a-339f-4650-ad3f-c05572b2e3f3",
+                    "name": "de",
+                    "rtspPrimary": "rtsp://10.23.21.13:8555/stream",
+                    "rtspSecondary": "rtsp://10.23.21.13:8555/stream",
+                    "type": 0
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "c848eb3c-f9ed-4e75-8275-86f9a80a420d",
+            "motorTempHost": "",
+            "name": "Mangal21",
+            "unvAudioOut": "",
             "winchEnabled": false
         }
     ]
