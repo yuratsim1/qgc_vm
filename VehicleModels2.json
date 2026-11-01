@@ -1135,6 +1135,64 @@
             "batteryMax": "84",
             "batteryMin": "64",
             "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb12",
+                    "name": "Сіткомети всі"
+                },
             ],
             "cameras": [
                 {
