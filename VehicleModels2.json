@@ -181,6 +181,32 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "c848eb3c-f9ed-4e75-8275-86f9a80a420d"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.71.14",
+            "id": "5f89cab0-ba0c-4d36-babf-2a046053a350",
+            "name": "Танчик71",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "13a0c733-6503-4b80-8c28-b6371b749171"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.72.14",
+            "id": "a5947571-ae95-469f-a41b-8ee2393aa3cd",
+            "name": "Танчик72",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": ""
         }
     ],
     "vehicleModels": [
@@ -1687,6 +1713,79 @@
             "motorTempHost": "",
             "name": "Mangal21",
             "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.71.15:554/media/video2",
+            "audioOut": "",
+            "batteryMax": "67.2",
+            "batteryMin": "50",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "e3127285-6980-4356-8add-e7af4940cb17",
+                    "name": "Сіткомет перед"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "32ab9875-2159-474e-b1ba-f87ae8f29ea8",
+                    "name": "Сіткомет зад"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "484d689e-ae36-4d2f-872f-093f439ba0f8",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.71.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.71.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "a3cb265a-2b0f-491b-9a91-4df861d95e4c",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.71.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.71.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.36145833134651184,
+                "leftXTop": 0.4140625298023224,
+                "leftYBot": 1,
+                "leftYTop": 0.6741157174110413,
+                "rightXBot": 0.6312499642372131,
+                "rightXTop": 0.5723958015441895,
+                "rightYBot": 1,
+                "rightYTop": 0.6730331182479858
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "13a0c733-6503-4b80-8c28-b6371b749171",
+            "motorTempHost": "",
+            "name": "Танчик71",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.71.15:554/media/video2",
             "winchEnabled": false
         }
     ]
