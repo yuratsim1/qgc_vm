@@ -4,32 +4,6 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.44.14",
-            "id": "4f2511ea-064f-4848-9f3c-091c586b9da4",
-            "name": "Лідія (Сімба44)",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "4f2511ea-064f-4848-9f3c-091c586b9da4"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.64.14",
-            "id": "a6c76b57-3c6c-4c7c-8b1d-6be4d546c263",
-            "name": "Рись64",
-            "port": 14552,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "3a5f768f-5281-4fe6-91f9-08b1a646233a"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
             "host": "10.23.55.14",
             "id": "ff439ed3-3bfc-4116-ba6f-f93b4a416e99",
             "name": "Змій55",
@@ -64,58 +38,6 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "33f61f9a-11ef-4785-a02a-6d8cfvdfa6e5"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.203.14",
-            "id": "4dae2f86-bada-4f80-be00-2bd3eeea7f76",
-            "name": "Поні203",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "d06fb375-8265-4db5-ad65-d40626238203"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.204.14",
-            "id": "4dae2f86-bada-4f80-be00-2bd3eeea7204",
-            "name": "Поні204",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "d06fb375-8265-4db5-ad65-d40626238204"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.74.14",
-            "id": "b9f5ce06-d5a8-4061-bcf4-b7b1d9544574",
-            "name": "Змій74",
-            "port": 14540,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "591a76cf-d6ff-4969-9942-8362204cc174"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.91.14",
-            "id": "cf127bcd-6cd6-434a-8f50-e43f24705b72",
-            "name": "Танчик91",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "b7fcd579-29e6-4eb6-ad53-ff80da0fa191"
         },
         {
             "autoConnect": false,
@@ -168,19 +90,6 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "8c8a135b-3a54-47a4-85ae-8cc89f7cbad2"
-        },
-        {
-            "autoConnect": false,
-            "baud": 0,
-            "highLatency": false,
-            "host": "10.23.21.14",
-            "id": "e34b5fcd-824b-4146-bdc5-907025e6c3d1",
-            "name": "Тарган17",
-            "port": 14550,
-            "portDisplayName": "",
-            "portName": "",
-            "type": 1,
-            "vehicleModelId": "c848eb3c-f9ed-4e75-8275-86f9a80a420d"
         },
         {
             "autoConnect": false,
@@ -500,12 +409,12 @@
                 {
                     "functions": [
                         {
-                            "servo": 0,
+                            "servo": 1,
                             "type": 1,
                             "value": 1
                         },
                         {
-                            "servo": 0,
+                            "servo": 1,
                             "type": 1,
                             "value": 0
                         }
@@ -516,12 +425,12 @@
                 {
                     "functions": [
                         {
-                            "servo": 1,
+                            "servo": 0,
                             "type": 1,
                             "value": 1
                         },
                         {
-                            "servo": 1,
+                            "servo": 0,
                             "type": 1,
                             "value": 0
                         }
