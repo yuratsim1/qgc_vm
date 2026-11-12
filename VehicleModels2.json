@@ -129,6 +129,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "3007a95c-e9b5-4055-9984-d287468991df"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.30.14",
+            "id": "dbc94bb2-c3b9-4595-9609-9791cfb1a4cd",
+            "name": "Targan30",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "bda7422c-8e8f-439e-8a61-48e3dc5bcf87"
         }
     ],
     "vehicleModels": [
@@ -1854,6 +1867,54 @@
             "motorTempHost": "",
             "name": "Tanchyk32",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.32.15:554/media/video1",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.30.15:554/Streaming/Channels/101",
+            "audioOut": "",
+            "batteryMax": "54.6",
+            "batteryMin": "41.6",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "6b38ec39-1b14-45f2-8ee1-988f8171abd3",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.30.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.30.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "521a25fb-f717-4fde-a5d9-64e0d05261af",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.30.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.30.16:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "a09d4a43-a788-421e-8d2e-1a53a05c40b2",
+                    "name": "Termo",
+                    "rtspPrimary": "rtsp://10.23.30.13:8554/ugv",
+                    "rtspSecondary": "rtsp://10.23.30.13:8554/ugv",
+                    "type": 0
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "bda7422c-8e8f-439e-8a61-48e3dc5bcf87",
+            "motorTempHost": "",
+            "name": "Targan30",
+            "unvAudioOut": "",
             "winchEnabled": false
         }
     ]
