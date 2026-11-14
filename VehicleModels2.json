@@ -108,9 +108,9 @@
             "autoConnect": false,
             "baud": 0,
             "highLatency": false,
-            "host": "10.23.72.14",
+            "host": "10.23.42.14",
             "id": "a5947571-ae95-469f-a41b-8ee2393aa3cd",
-            "name": "Танчик72",
+            "name": "Танчик42",
             "port": 14550,
             "portDisplayName": "",
             "portName": "",
@@ -142,6 +142,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "bda7422c-8e8f-439e-8a61-48e3dc5bcf87"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.50.14",
+            "id": "48010368-1b87-4764-a552-3f7044f29034",
+            "name": "Змій 50 евак",
+            "port": 14540,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "8390a9d6-04fb-44e9-bfdd-5c6ed2f83ecf"
         }
     ],
     "vehicleModels": [
@@ -1724,7 +1737,7 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.72.15:554/media/video2",
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.42.15:554/media/video2",
             "audioOut": "",
             "batteryMax": "67.2",
             "batteryMin": "50",
@@ -1766,15 +1779,15 @@
                 {
                     "id": "484d689e-ae36-4d2f-872f-093f439ba0f8",
                     "name": "Front",
-                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.72.15:554/media/video1",
-                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.72.15:554/media/video2",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.42.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.42.15:554/media/video2",
                     "type": 3
                 },
                 {
                     "id": "a3cb265a-2b0f-491b-9a91-4df861d95e4c",
                     "name": "Back",
-                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.72.16:554/cam/realmonitor?channel=1&subtype=0",
-                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.72.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.42.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.42.16:554/cam/realmonitor?channel=1&subtype=1",
                     "type": 2
                 }
             ],
@@ -1792,8 +1805,8 @@
             "hikAudioOut": "",
             "id": "13a0c733-6503-4b80-8c28-b6371b749172",
             "motorTempHost": "",
-            "name": "Танчик72",
-            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.72.15:554/media/video2",
+            "name": "Танчик42",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.42.15:554/media/video2",
             "winchEnabled": false
         },
         {
@@ -1915,6 +1928,54 @@
             "motorTempHost": "",
             "name": "Targan30",
             "unvAudioOut": "",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.50.15:554/media/video2",
+            "audioOut": "",
+            "batteryMax": "65.9",
+            "batteryMin": "51.2",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "a4fee9af-9911-4150-ae9c-370b30041cb5",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.50.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.50.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "ac8ec91c-b027-4aec-bcfc-87108e6b1560",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.50.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.50.16:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "2d7dfd15-3ced-4f8f-9fc2-38ef919ea28d",
+                    "name": "ч",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.50.17:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.50.17:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.3708333373069763,
+                "leftXTop": 0.4489583373069763,
+                "leftYBot": 1,
+                "leftYTop": 0.6028416752815247,
+                "rightXBot": 0.6723958253860474,
+                "rightXTop": 0.5729166865348816,
+                "rightYBot": 1,
+                "rightYTop": 0.5974289774894714
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "8390a9d6-04fb-44e9-bfdd-5c6ed2f83ecf",
+            "motorTempHost": "",
+            "name": "Змій50",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.50.15:554/media/video2",
             "winchEnabled": false
         }
     ]
