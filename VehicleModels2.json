@@ -553,7 +553,7 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.62.15:554/media/video2",
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.62.16:554/cam/realmonitor?channel=1&subtype=1",
             "audioOut": "",
             "batteryMax": "67.2",
             "batteryMin": "50",
