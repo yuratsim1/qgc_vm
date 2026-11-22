@@ -181,6 +181,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "95bcad87-c95c-4648-aac2-4c2c430789e9"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.48.14",
+            "id": "f38e19b8-bf5d-4052-be37-67e04a83c67a",
+            "name": "Тарган48",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "575e698c-2e78-4f54-a286-46c0c5dbcd02"
         }
     ],
     "vehicleModels": [
@@ -604,7 +617,7 @@
                 "rightYBot": 1,
                 "rightYTop": 0.5810168981552124
             },
-            "gcsId": "",
+            "gcsId": "62",
             "hikAudioOut": "",
             "id": "13a0c733-6503-4b80-8c28-b6371b749141",
             "motorTempHost": "",
@@ -1287,6 +1300,47 @@
             "motorTempHost": "",
             "name": "Tanchyk54",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.54.15:554/media/video2",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.48.15:554/Streaming/Channels/102",
+            "audioOut": "",
+            "batteryMax": "42",
+            "batteryMin": "32",
+            "buttons": [
+            ],
+            "cameras": [
+                {
+                    "id": "840f91c7-a8bb-46e1-be15-e4524a0fec1e",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.48.15:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.48.15:554/Streaming/Channels/102",
+                    "type": 1
+                },
+                {
+                    "id": "c1b16d5f-79c7-4c96-9924-928f53232d7d",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.48.16:554/Streaming/Channels/101",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.48.16:554/Streaming/Channels/102",
+                    "type": 1
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.30000001192092896,
+                "leftXTop": 0.4000000059604645,
+                "leftYBot": 1,
+                "leftYTop": 0.5,
+                "rightXBot": 0.699999988079071,
+                "rightXTop": 0.6000000238418579,
+                "rightYBot": 1,
+                "rightYTop": 0.5
+            },
+            "gcsId": "48",
+            "hikAudioOut": "",
+            "id": "575e698c-2e78-4f54-a286-46c0c5dbcd02",
+            "motorTempHost": "",
+            "name": "Тарган48",
+            "unvAudioOut": "",
             "winchEnabled": false
         }
     ]
