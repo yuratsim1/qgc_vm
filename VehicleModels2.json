@@ -168,6 +168,19 @@
             "portName": "",
             "type": 1,
             "vehicleModelId": "f57d731a-fad0-4db2-be75-2bfe694baf22"
+        },
+        {
+            "autoConnect": false,
+            "baud": 0,
+            "highLatency": false,
+            "host": "10.23.54.14",
+            "id": "d45e0484-0a94-4080-9a2e-5a6b1c667b7f",
+            "name": "Tanchyk54",
+            "port": 14550,
+            "portDisplayName": "",
+            "portName": "",
+            "type": 1,
+            "vehicleModelId": "95bcad87-c95c-4648-aac2-4c2c430789e9"
         }
     ],
     "vehicleModels": [
@@ -1201,6 +1214,79 @@
             "motorTempHost": "",
             "name": "Терміт 942",
             "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.92.15:8554/media/video2",
+            "winchEnabled": false
+        },
+        {
+            "audioIn": "rtsp://admin:Q!2wazxsw@10.23.54.15:554/media/video2",
+            "audioOut": "",
+            "batteryMax": "67.2",
+            "batteryMin": "51.2",
+            "buttons": [
+                {
+                    "functions": [
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 0,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "be4a0a91-45d9-4704-a323-a7957d9a4dd9",
+                    "name": "Сіткомет Передній"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 1
+                        },
+                        {
+                            "servo": 1,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "d408ef32-3487-4f5c-8cb6-14ef3270c609",
+                    "name": "Сіткомет Задній"
+                }
+            ],
+            "cameras": [
+                {
+                    "id": "1065a180-da00-414c-a7e0-ec4e1e4007c8",
+                    "name": "Front",
+                    "rtspPrimary": "rtsp://admin:Q!2wazxsw@10.23.54.15:554/media/video1",
+                    "rtspSecondary": "rtsp://admin:Q!2wazxsw@10.23.54.15:554/media/video2",
+                    "type": 3
+                },
+                {
+                    "id": "8ed67e05-8511-42ab-b9a5-ae9d6a8fab2a",
+                    "name": "Back",
+                    "rtspPrimary": "rtsp://admin:Q12wazxsw@10.23.54.16:554/cam/realmonitor?channel=1&subtype=0",
+                    "rtspSecondary": "rtsp://admin:Q12wazxsw@10.23.54.16:554/cam/realmonitor?channel=1&subtype=1",
+                    "type": 2
+                }
+            ],
+            "dimensions": {
+                "leftXBot": 0.39270833134651184,
+                "leftXTop": 0.4416666626930237,
+                "leftYBot": 1,
+                "leftYTop": 0.7195448279380798,
+                "rightXBot": 0.6484375,
+                "rightXTop": 0.5984375476837158,
+                "rightYBot": 1,
+                "rightYTop": 0.7120481729507446
+            },
+            "gcsId": "",
+            "hikAudioOut": "",
+            "id": "95bcad87-c95c-4648-aac2-4c2c430789e9",
+            "motorTempHost": "",
+            "name": "Tanchyk54",
+            "unvAudioOut": "rtsp://admin:Q!2wazxsw@10.23.54.15:554/media/video2",
             "winchEnabled": false
         }
     ]
