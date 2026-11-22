@@ -1326,14 +1326,14 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.30000001192092896,
-                "leftXTop": 0.4000000059604645,
+                "leftXBot": 0.3453125059604645,
+                "leftXTop": 0.4208333492279053,
                 "leftYBot": 1,
-                "leftYTop": 0.5,
-                "rightXBot": 0.699999988079071,
-                "rightXTop": 0.6000000238418579,
+                "leftYTop": 0.6883626580238342,
+                "rightXBot": 0.6291666626930237,
+                "rightXTop": 0.5552083849906921,
                 "rightYBot": 1,
-                "rightYTop": 0.5
+                "rightYTop": 0.682949960231781
             },
             "gcsId": "48",
             "hikAudioOut": "",
