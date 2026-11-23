@@ -1326,6 +1326,28 @@
                 {
                     "functions": [
                         {
+                            "servo": 2,
+                            "type": 1,
+                            "value": 1
+                        }
+                    ],
+                    "id": "84a7d65b-9cf4-46ac-986f-6be23a1d1035",
+                    "name": "Фара Увімкнена"
+                },
+                {
+                    "functions": [
+                        {
+                            "servo": 2,
+                            "type": 1,
+                            "value": 0
+                        }
+                    ],
+                    "id": "ea655420-e932-4de8-b90a-b53149bc108e",
+                    "name": "Фара Вимкнена"
+                },
+                {
+                    "functions": [
+                        {
                             "servo": 0,
                             "type": 1,
                             "value": 1
@@ -1354,28 +1376,6 @@
                     ],
                     "id": "df1da3d7-10b8-41d4-84eb-bf809326c1c8",
                     "name": "Сіткомет ЗАДНІЙ"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 2,
-                            "type": 1,
-                            "value": 1
-                        }
-                    ],
-                    "id": "84a7d65b-9cf4-46ac-986f-6be23a1d1035",
-                    "name": "Фара Увімкнена"
-                },
-                {
-                    "functions": [
-                        {
-                            "servo": 2,
-                            "type": 1,
-                            "value": 0
-                        }
-                    ],
-                    "id": "ea655420-e932-4de8-b90a-b53149bc108e",
-                    "name": "Фара Вимкнена"
                 }
             ],
             "cameras": [
@@ -1395,14 +1395,14 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.35989585518836975,
-                "leftXTop": 0.4312500059604645,
+                "leftXBot": 0.39218753576278687,
+                "leftXTop": 0.4479166865348816,
                 "leftYBot": 1,
-                "leftYTop": 0.6681392192840576,
-                "rightXBot": 0.6187499761581421,
-                "rightXTop": 0.5744791626930237,
+                "leftYTop": 0.6724693775177002,
+                "rightXBot": 0.6739583015441895,
+                "rightXTop": 0.6109374761581421,
                 "rightYBot": 1,
-                "rightYTop": 0.6745648980140686
+                "rightYTop": 0.6659045219421387
             },
             "gcsId": "10",
             "hikAudioOut": "",
