@@ -295,7 +295,7 @@
             "winchEnabled": false
         },
         {
-            "audioIn": "rtsp://admin:Q12wazxsw@10.23.116.15:554/Streaming/Channels/101",
+            "audioIn": "rtsp://admin:Q12wazxsw@10.23.116.15:554/Streaming/Channels/102",
             "audioOut": "10.23.116.13",
             "batteryMax": "84",
             "batteryMin": "64",
