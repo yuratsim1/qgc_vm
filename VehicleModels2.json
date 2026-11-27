@@ -1282,16 +1282,16 @@
                 }
             ],
             "dimensions": {
-                "leftXBot": 0.4739583432674408,
-                "leftXTop": 0.48645833134651184,
+                "leftXBot": 0.4593750238418579,
+                "leftXTop": 0.5,
                 "leftYBot": 1,
-                "leftYTop": 0.5606224536895752,
-                "rightXBot": 0.8374999761581421,
-                "rightXTop": 0.6255208849906921,
+                "leftYTop": 0.6115020513534546,
+                "rightXBot": 0.8312499523162842,
+                "rightXTop": 0.6567708849906921,
                 "rightYBot": 1,
-                "rightYTop": 0.5400541424751282
+                "rightYTop": 0.6039242148399353
             },
-            "gcsId": "",
+            "gcsId": "110",
             "hikAudioOut": "",
             "id": "f57d731a-fad0-4db2-be75-2bfe694ba110",
             "motorTempHost": "",
